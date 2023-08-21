@@ -100,8 +100,8 @@ const config = {
 
     customFields: {
         'meilisearch-docsearch': {
-            host: 'https://meilisearch-rsshub.moeyy.cn',
-            apiKey: '375c36cd9573a2c1d1e536214158c37120fdd0ba6cd8829f7a848e940cc22245',
+            host: 'https://meilisearch.moeyy.cn',
+            apiKey: '37c30da0c8fb4f64dca1db5e4d913ce60d71720732406f33aa4175876d7b35ac',
             indexUid: 'rsshub',
             container: '#docsearch',
         },
