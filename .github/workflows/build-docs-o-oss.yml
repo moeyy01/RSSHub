@@ -1,0 +1,37 @@
+# workflow name
+name: Docs Build
+
+# 在main分支上有push命令时触发该流程
+on:
+    push:
+        branches:
+            - master
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout Repository master branch
+              uses: actions/checkout@master
+
+            - name: Setup Node.js 16.x
+              uses: actions/setup-node@master
+              with:
+                  node-version: '16.x'
+
+            - name: Setup Hexo Dependencies
+              run: |
+                  cd website
+                  pnpm install
+                  pnpm build
+            - name: setup aliyun oss
+              uses: manyuanrong/setup-ossutil@master
+              with:
+                  endpoint: oss-accelerate.aliyuncs.com
+                  access-key-id: ${{ secrets.KEY }}
+                  access-key-secret: ${{ secrets.SECRET }}
+            - name: rm files to aliyun
+              run: ossutil rm -r -f oss://rsshub-docs-moeyy-cn/
+            - name: cp files to aliyun
+              run: ossutil cp -rf website/build oss://rsshub-docs-moeyy-cn/

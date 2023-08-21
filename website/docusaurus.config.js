@@ -91,7 +91,7 @@ const config = {
                     sidebarPath: require.resolve('./sidebars.js'),
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
-                    editUrl: 'https://github.com/DIYgod/RSSHub/blob/master/website/',
+                    // editUrl: 'https://github.com/DIYgod/RSSHub/blob/master/website/',
                     showLastUpdateAuthor: true,
                     showLastUpdateTime: true,
                 },
@@ -99,17 +99,17 @@ const config = {
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
                 },
-                gtag: {
-                    trackingID: 'G-322PG1X4EL',
-                },
+                // gtag: {
+                //     trackingID: 'G-322PG1X4EL',
+                // },
             }),
         ],
     ],
 
     customFields: {
         'meilisearch-docsearch': {
-            host: 'https://meilisearch.rsshub.app',
-            apiKey: '375c36cd9573a2c1d1e536214158c37120fdd0ba6cd8829f7a848e940cc22245',
+            host: 'https://meilisearch.moeyy.cn',
+            apiKey: '',
             indexUid: 'rsshub',
             container: '#docsearch',
         },
