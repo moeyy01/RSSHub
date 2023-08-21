@@ -23,8 +23,8 @@ jobs:
             - name: Setup Hexo Dependencies
               run: |
                   cd website
-                  pnpm install
-                  pnpm build
+                  npm install
+                  npm run build
             - name: setup aliyun oss
               uses: manyuanrong/setup-ossutil@master
               with:
