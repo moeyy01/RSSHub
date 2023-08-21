@@ -35,14 +35,6 @@ const config = {
 
     plugins: [
         [
-            '@dipakparmar/docusaurus-plugin-umami',
-            /** @type {import('@dipakparmar/docusaurus-plugin-umami').Options} */
-            ({
-                websiteID: 'be1761be-7547-49d5-91b8-5c97c8f7cec7', // Required
-                analyticsDomain: 'umami.diygod.dev', // Required
-            }),
-        ],
-        [
             '@docusaurus/plugin-client-redirects',
             /** @type {import('@docusaurus/plugin-client-redirects').Options} */
             ({
