@@ -20,7 +20,7 @@ jobs:
               with:
                   node-version: '16.x'
 
-            - name: Setup Hexo Dependencies
+            - name: Setup Node Dependencies
               run: |
                   cd website
                   npm install
@@ -29,8 +29,8 @@ jobs:
               uses: manyuanrong/setup-ossutil@master
               with:
                   endpoint: oss-accelerate.aliyuncs.com
-                  access-key-id: ${{ secrets.KEY }}
-                  access-key-secret: ${{ secrets.SECRET }}
+                  access-key-id: ${{ secrets.OSS_KEY }}
+                  access-key-secret: ${{ secrets.OSS_SECRET }}
             - name: rm files to aliyun
               run: ossutil rm -r -f oss://rsshub-docs-moeyy-cn/
             - name: cp files to aliyun
