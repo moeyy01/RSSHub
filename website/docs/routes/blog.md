@@ -331,7 +331,7 @@ Limit the number of entries to be retrieved by adding `?limit=x` to the end of t
 
 <Route author="hujingnb" example="/cnblogs/cate/go" path="/cnblogs/cate/:type" paramsDesc={['类型']} radar="1" rssbud="1">
 
-在博客园主页的分类出可查看所有类型。例如，go 的分类地址为: `https://www.cnblogs.com/cate/go/`, 则: [`/cnblogs/cate/go`](https://rsshub.app/cnblogs/cate/go)
+在博客园主页的分类出可查看所有类型。例如，go 的分类地址为: `https://www.cnblogs.com/cate/go/`, 则: [`/cnblogs/cate/go`](https://rsshub.moeyy.cn/cnblogs/cate/go)
 
 </Route>
 

@@ -264,7 +264,7 @@ Or
 
 `params` is the field after `itch.io` in the URL of the corresponding page, e.g. the URL of [Top Rated Games tagged Singleplayer](https://itch.io/games/top-rated/tag-singleplayer) is <https://itch.io/games/top-rated/tag-singleplayer>, where the field after `itch.io` is `/games/top-rated/tag-singleplayer`.
 
-So the route is [`/itch/games/top-rated/tag-singleplayer`](https://rsshub.app/itch/games/top-rated/tag-singleplayer).
+So the route is [`/itch/games/top-rated/tag-singleplayer`](https://rsshub.moeyy.cn/itch/games/top-rated/tag-singleplayer).
 
 :::tip
 
@@ -282,7 +282,7 @@ You can browse all the tags at [here](https://itch.io/tags).
 
 `Item id` is the field between `itch.io` and `/devlog` in the URL of the corresponding page, e.g. the URL for [The Baby In Yellow Devlog](https://teamterrible.itch.io/the-baby-in-yellow/devlog) is <https://teamterrible.itch.io/the-baby-in-yellow/devlog>, where the field between `itch.io` and `/devlog` is `the-baby-in-yellow`.
 
-So the route is [`/itch/devlogs/teamterrible/the-baby-in-yellow`](https://rsshub.app/itch/devlogs/teamterrible/the-baby-in-yellow).
+So the route is [`/itch/devlogs/teamterrible/the-baby-in-yellow`](https://rsshub.moeyy.cn/itch/devlogs/teamterrible/the-baby-in-yellow).
 
 </Route>
 
@@ -834,9 +834,9 @@ Example：`https://www.iyingdi.com/tz/people/55547` ，id 是 `55547`
 
 :::tip
 
-若订阅 [热点聚焦](https://keylol.com/f161-1)，网址为 <https://keylol.com/f161-1>。截取 `https://keylol.com/` 到末尾的部分 `f161-1` 作为参数，此时路由为 [`/keylol/f161-1`](https://rsshub.app/keylol/f161-1)。
+若订阅 [热点聚焦](https://keylol.com/f161-1)，网址为 <https://keylol.com/f161-1>。截取 `https://keylol.com/` 到末尾的部分 `f161-1` 作为参数，此时路由为 [`/keylol/f161-1`](https://rsshub.moeyy.cn/keylol/f161-1)。
 
-若订阅子分类 [试玩免费 - 热点聚焦](https://keylol.com/forum.php?mod=forumdisplay&fid=161&filter=typeid&typeid=459)，网址为 <https://keylol.com/forum.php?mod=forumdisplay&fid=161&filter=typeid&typeid=459>。截取 `https://keylol.com/forum.php?mod=forumdisplay&` 到末尾的部分 `fid=161&filter=typeid&typeid=459` 作为参数，此时路由为 [`/keylol/fid=161&filter=typeid&typeid=459`](https://rsshub.app/keylol/fid=161&filter=typeid&typeid=459)。
+若订阅子分类 [试玩免费 - 热点聚焦](https://keylol.com/forum.php?mod=forumdisplay&fid=161&filter=typeid&typeid=459)，网址为 <https://keylol.com/forum.php?mod=forumdisplay&fid=161&filter=typeid&typeid=459>。截取 `https://keylol.com/forum.php?mod=forumdisplay&` 到末尾的部分 `fid=161&filter=typeid&typeid=459` 作为参数，此时路由为 [`/keylol/fid=161&filter=typeid&typeid=459`](https://rsshub.moeyy.cn/keylol/fid=161&filter=typeid&typeid=459)。
 
 :::
 

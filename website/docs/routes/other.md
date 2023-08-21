@@ -375,7 +375,7 @@ For example:
 | `period`   | 发布时间                                          | `1/7/30`                                                | 空      |
 
 例如：
-[`/linkedin/cn/jobs/Software?location=shanghai&period=1`](https://rsshub.app/linkedin/cn/jobs/Software?location=shanghai&period=1): 查找所有在上海的今日发布的所有 Software 工作
+[`/linkedin/cn/jobs/Software?location=shanghai&period=1`](https://rsshub.moeyy.cn/linkedin/cn/jobs/Software?location=shanghai&period=1): 查找所有在上海的今日发布的所有 Software 工作
 
 **为了方便起见，建议您在 [LinkedIn.cn](https://www.linkedin.cn/incareer/jobs/search) 上进行搜索，并使用 [RSSHub Radar](https://github.com/DIYgod/RSSHub-Radar) 加载特定的 feed。**
 
@@ -916,10 +916,10 @@ Refer to [the list of supported currencies](https://wise.com/tools/exchange-rate
 | so2  | SO2      |
 | co   | CO       |
 
-举例: [https://rsshub.app/aqicn/beijing/pm25,pm10](https://rsshub.app/aqicn/beijing/pm25.pm10)
+举例: [https://rsshub.moeyy.cn/aqicn/beijing/pm25,pm10](https://rsshub.moeyy.cn/aqicn/beijing/pm25.pm10)
 
-1.  显示单个污染成分，例如「pm25」, <https://rsshub.app/aqicn/beijing/pm25>
-2.  逗号分隔显示多个污染成分，例如「pm25,pm10」，[https://rsshub.app/aqicn/beijing/pm25,pm10](https://rsshub.app/aqicn/beijing/pm25.pm10)
+1.  显示单个污染成分，例如「pm25」, <https://rsshub.moeyy.cn/aqicn/beijing/pm25>
+2.  逗号分隔显示多个污染成分，例如「pm25,pm10」，[https://rsshub.moeyy.cn/aqicn/beijing/pm25,pm10](https://rsshub.moeyy.cn/aqicn/beijing/pm25.pm10)
 
 ## 快递 100 {#kuai-di-100}
 
@@ -1039,7 +1039,7 @@ Refer to [the list of supported currencies](https://wise.com/tools/exchange-rate
 
 路径处填写对应页面 URL 中 `http://www.qiyoujiage.com/` 和 `.shtml` 之间的字段。下面是一个例子。
 
-若订阅 [福建漳州龙海今日油价](http://www.qiyoujiage.com/fujian/zhangzhou/longhai.shtml) 则将对应页面 URL <http://www.qiyoujiage.com/fujian/zhangzhou/longhai.shtml> 中 `http://www.qiyoujiage.com/` 和 `.shtml` 之间的字段 `fujian/zhangzhou/longhai` 作为路径填入。此时路由为 [`/qiyoujiage/fujian/zhangzhou/longhai`](https://rsshub.app/qiyoujiage/fujian/zhangzhou/longhai)
+若订阅 [福建漳州龙海今日油价](http://www.qiyoujiage.com/fujian/zhangzhou/longhai.shtml) 则将对应页面 URL <http://www.qiyoujiage.com/fujian/zhangzhou/longhai.shtml> 中 `http://www.qiyoujiage.com/` 和 `.shtml` 之间的字段 `fujian/zhangzhou/longhai` 作为路径填入。此时路由为 [`/qiyoujiage/fujian/zhangzhou/longhai`](https://rsshub.moeyy.cn/qiyoujiage/fujian/zhangzhou/longhai)
 
 :::
 

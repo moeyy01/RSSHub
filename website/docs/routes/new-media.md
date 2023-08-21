@@ -209,9 +209,9 @@ Supported categories: Philosophy, Science, Psychology, Society, and Culture.
 
 :::tip
 
-若订阅 [每日热点 - 最新](https://bad.news/tag/每日热点/sort-new)，网址为 [https://bad.news/tag/ 每日热点 /sort-new](https://bad.news/tag/每日热点/sort-new)。截取 `https://bad.news` 到末尾的部分 `/tag/每日热点/sort-new` 作为参数，此时路由为 [`/bad/tag/每日热点/sort-new`](https://rsshub.app/bad/tag/每日热点/sort-new)。
+若订阅 [每日热点 - 最新](https://bad.news/tag/每日热点/sort-new)，网址为 [https://bad.news/tag/ 每日热点 /sort-new](https://bad.news/tag/每日热点/sort-new)。截取 `https://bad.news` 到末尾的部分 `/tag/每日热点/sort-new` 作为参数，此时路由为 [`/bad/tag/每日热点/sort-new`](https://rsshub.moeyy.cn/bad/tag/每日热点/sort-new)。
 
-若订阅子分类 [大陆资讯 - 热门](https://bad.news/tag/大陆资讯/sort-hot)，网址为 [https://bad.news/tag/ 大陆资讯 /sort-hot](https://bad.news/tag/大陆资讯/sort-hot)。截取 `https://bad.news` 到末尾的部分 `/tag/大陆资讯/sort-hot` 作为参数，路由为 [`/bad/tag/大陆资讯/sort-hot`](https://rsshub.app/bad/tag/大陆资讯/sort-hot)。
+若订阅子分类 [大陆资讯 - 热门](https://bad.news/tag/大陆资讯/sort-hot)，网址为 [https://bad.news/tag/ 大陆资讯 /sort-hot](https://bad.news/tag/大陆资讯/sort-hot)。截取 `https://bad.news` 到末尾的部分 `/tag/大陆资讯/sort-hot` 作为参数，路由为 [`/bad/tag/大陆资讯/sort-hot`](https://rsshub.moeyy.cn/bad/tag/大陆资讯/sort-hot)。
 
 :::
 
@@ -1987,7 +1987,7 @@ Supported sub-sites:
 
 路径处填写对应页面 URL 中 `https://web3caff.com/` 后的字段。下面是一个例子。
 
-若订阅 [叙事 - Web3Caff](https://web3caff.com/zh/archives/category/news_zh) 则将对应页面 URL <https://web3caff.com/zh/archives/category/news_zh> 中 `https://web3caff.com/` 后的字段 `zh/archives/category/news_zh` 作为路径填入。此时路由为 [`/web3caff/zh/archives/category/news_zh`](https://rsshub.app/web3caff/zh/archives/category/news_zh)
+若订阅 [叙事 - Web3Caff](https://web3caff.com/zh/archives/category/news_zh) 则将对应页面 URL <https://web3caff.com/zh/archives/category/news_zh> 中 `https://web3caff.com/` 后的字段 `zh/archives/category/news_zh` 作为路径填入。此时路由为 [`/web3caff/zh/archives/category/news_zh`](https://rsshub.moeyy.cn/web3caff/zh/archives/category/news_zh)
 
 :::
 
@@ -2174,11 +2174,11 @@ Supported sub-sites:
 
 路径处填写对应页面 URL 中 `https://www.bast.net.cn/` 后的字段。下面是两个例子。
 
-若订阅 [通知公告](https://www.bast.net.cn/col/col31266) 则将对应页面 URL <https://www.bast.net.cn/col/col31266> 中 `https://www.bast.net.cn/` 后的字段 `col/col31266` 作为路径填入。此时路由为 [`/bast/col/col31266`](https://rsshub.app/bast/col/col31266)
+若订阅 [通知公告](https://www.bast.net.cn/col/col31266) 则将对应页面 URL <https://www.bast.net.cn/col/col31266> 中 `https://www.bast.net.cn/` 后的字段 `col/col31266` 作为路径填入。此时路由为 [`/bast/col/col31266`](https://rsshub.moeyy.cn/bast/col/col31266)
 
-若订阅 [学术动态](https://www.bast.net.cn/col/col31530) 则将对应页面 URL <https://www.bast.net.cn/col/col31530> 中 `https://www.bast.net.cn/` 后的字段 `col/col31530` 作为路径填入。此时路由为 [`/bast/col/col31530`](https://rsshub.app/bast/col/col31530)
+若订阅 [学术动态](https://www.bast.net.cn/col/col31530) 则将对应页面 URL <https://www.bast.net.cn/col/col31530> 中 `https://www.bast.net.cn/` 后的字段 `col/col31530` 作为路径填入。此时路由为 [`/bast/col/col31530`](https://rsshub.moeyy.cn/bast/col/col31530)
 
-如果路由符合 `/col/colXXXXX` 的格式，可以由 [`/bast/col/col31266`](https://rsshub.app/bast/col/col31266) 精简为 [`/bast/31266`](https://rsshub.app/bast/31266)
+如果路由符合 `/col/colXXXXX` 的格式，可以由 [`/bast/col/col31266`](https://rsshub.moeyy.cn/bast/col/col31266) 精简为 [`/bast/31266`](https://rsshub.moeyy.cn/bast/31266)
 
 :::
 
@@ -2707,9 +2707,9 @@ Type 栏目：
 
 :::tip
 
-支持形如 <https://www.storm.mg/category/118> 的路由，即 [`/storm/category/118`](https://rsshub.app/storm/category/118)
+支持形如 <https://www.storm.mg/category/118> 的路由，即 [`/storm/category/118`](https://rsshub.moeyy.cn/storm/category/118)
 
-支持形如 <https://www.storm.mg/localarticle-category/s149845> 的路由，即 [`/storm/localarticle-category/s149845`](https://rsshub.app/storm/localarticle-category/s149845)
+支持形如 <https://www.storm.mg/localarticle-category/s149845> 的路由，即 [`/storm/localarticle-category/s149845`](https://rsshub.moeyy.cn/storm/localarticle-category/s149845)
 
 :::
 
@@ -2725,7 +2725,7 @@ Type 栏目：
 
 路径处填写对应页面 URL 中 `https://news.ifeng.com/` 后的字段。下面是一个例子。
 
-若订阅 [大湾区\_资讯\_凤凰网](https://news.ifeng.com/shanklist/3-305565-) 则将对应页面 URL <https://news.ifeng.com/shanklist/3-305565-> 中 `https://news.ifeng.com/` 后的字段 `shanklist/3-305565-` 作为路径填入。此时路由为 [`/ifeng/news/shanklist/3-305565-`](https://rsshub.app/ifeng/news/shanklist/3-305565-)
+若订阅 [大湾区\_资讯\_凤凰网](https://news.ifeng.com/shanklist/3-305565-) 则将对应页面 URL <https://news.ifeng.com/shanklist/3-305565-> 中 `https://news.ifeng.com/` 后的字段 `shanklist/3-305565-` 作为路径填入。此时路由为 [`/ifeng/news/shanklist/3-305565-`](https://rsshub.moeyy.cn/ifeng/news/shanklist/3-305565-)
 
 :::
 
@@ -2999,11 +2999,11 @@ others = 热点新闻 + 滚动新闻
 
 :::tip
 
-若订阅 [标签：妖](https://www.cbaigui.com/post-tag/妖)，网址为 [https://www.cbaigui.com/post-tag/ 妖](https://www.cbaigui.com/post-tag/妖)。截取 `https://www.cbaigui.com` 到末尾的部分 `/post-tag/妖` 作为参数，此时路由为 [`/cbaigui/post-tag/妖`](https://rsshub.app/cbaigui/post-tag/妖)。
+若订阅 [标签：妖](https://www.cbaigui.com/post-tag/妖)，网址为 [https://www.cbaigui.com/post-tag/ 妖](https://www.cbaigui.com/post-tag/妖)。截取 `https://www.cbaigui.com` 到末尾的部分 `/post-tag/妖` 作为参数，此时路由为 [`/cbaigui/post-tag/妖`](https://rsshub.moeyy.cn/cbaigui/post-tag/妖)。
 
-若订阅 [分类：埃及](https://www.cbaigui.com/post-category/世界/非洲/埃及)，网址为 [https://www.cbaigui.com/post-category/ 世界 / 非洲 / 埃及](https://www.cbaigui.com/post-category/世界/非洲/埃及)。截取 `https://www.cbaigui.com` 到末尾的部分 `/post-category/世界/非洲/埃及` 作为参数，此时路由为 [`/cbaigui/post-category/世界/非洲/埃及`](https://rsshub.app/cbaigui/post-category/世界/非洲/埃及)。
+若订阅 [分类：埃及](https://www.cbaigui.com/post-category/世界/非洲/埃及)，网址为 [https://www.cbaigui.com/post-category/ 世界 / 非洲 / 埃及](https://www.cbaigui.com/post-category/世界/非洲/埃及)。截取 `https://www.cbaigui.com` 到末尾的部分 `/post-category/世界/非洲/埃及` 作为参数，此时路由为 [`/cbaigui/post-category/世界/非洲/埃及`](https://rsshub.moeyy.cn/cbaigui/post-category/世界/非洲/埃及)。
 
-若订阅 [词条：白泽图](https://www.cbaigui.com/post-category/词条/白泽图)，网址为 [https://www.cbaigui.com/post-category/ 词条 / 白泽图](https://www.cbaigui.com/post-category/词条/白泽图)。截取 `https://www.cbaigui.com` 到末尾的部分 `/post-category/词条/白泽图` 作为参数，此时路由为 [`/cbaigui/post-category/词条/白泽图`](https://rsshub.app/cbaigui/post-category/词条/白泽图)。
+若订阅 [词条：白泽图](https://www.cbaigui.com/post-category/词条/白泽图)，网址为 [https://www.cbaigui.com/post-category/ 词条 / 白泽图](https://www.cbaigui.com/post-category/词条/白泽图)。截取 `https://www.cbaigui.com` 到末尾的部分 `/post-category/词条/白泽图` 作为参数，此时路由为 [`/cbaigui/post-category/词条/白泽图`](https://rsshub.moeyy.cn/cbaigui/post-category/词条/白泽图)。
 
 :::
 
@@ -3205,9 +3205,9 @@ column 为 third 时可选的 category:
 
 :::tip
 
-使用 **类型** 表中的两个参数时，编号应留空，如：**最新** 为 [`/mydrivers/new`](https://rsshub.app/mydrivers/new)
+使用 **类型** 表中的两个参数时，编号应留空，如：**最新** 为 [`/mydrivers/new`](https://rsshub.moeyy.cn/mydrivers/new)
 
-使用 **编号** 表中的参数不应遗漏对应类型参数，如 **电脑** 为 [`/mydrivers/bcid/801`](https://rsshub.app/mydrivers/bcid/801)
+使用 **编号** 表中的参数不应遗漏对应类型参数，如 **电脑** 为 [`/mydrivers/bcid/801`](https://rsshub.moeyy.cn/mydrivers/bcid/801)
 
 :::
 
@@ -3471,11 +3471,11 @@ column 为 third 时可选的 category:
 
 以下是几个例子：
 
-[**化工**](https://chem.oilchem.net) <https://chem.oilchem.net> 中，类别 id 为 `chem`，分类 id 为空，子分类 id 为空，对应路由即为 [`/oilchem/chem`](https://rsshub.app/oilchem/list/140/18263)
+[**化工**](https://chem.oilchem.net) <https://chem.oilchem.net> 中，类别 id 为 `chem`，分类 id 为空，子分类 id 为空，对应路由即为 [`/oilchem/chem`](https://rsshub.moeyy.cn/oilchem/list/140/18263)
 
-[**甲醇**](https://chem.oilchem.net/chemical/methanol.shtml) 的相关资讯有两个页面入口：其一 <https://chem.oilchem.net/chemical/methanol.shtml> 中，类别 id 为 `chem`，分类 id 为 `chemical`，子分类 id 为 `methanol`，对应路由即为 [`/oilchem/chem/chemical/methanol`](https://rsshub.app/oilchem/chem/chemical/methanol) 或其二 <https://list.oilchem.net/140> 中，类别 id 为 `list`，分类 id 为 `140`，子分类 id 为空，对应路由即为 [`/oilchem/list/140`](https://rsshub.app/oilchem/list/140)；
+[**甲醇**](https://chem.oilchem.net/chemical/methanol.shtml) 的相关资讯有两个页面入口：其一 <https://chem.oilchem.net/chemical/methanol.shtml> 中，类别 id 为 `chem`，分类 id 为 `chemical`，子分类 id 为 `methanol`，对应路由即为 [`/oilchem/chem/chemical/methanol`](https://rsshub.moeyy.cn/oilchem/chem/chemical/methanol) 或其二 <https://list.oilchem.net/140> 中，类别 id 为 `list`，分类 id 为 `140`，子分类 id 为空，对应路由即为 [`/oilchem/list/140`](https://rsshub.moeyy.cn/oilchem/list/140)；
 
-[**甲醇热点聚焦**](https://list.oilchem.net/140/18263) <https://list.oilchem.net/140/18263> 中，类别 id 为 `list`，分类 id 为 `140`，子分类 id 为 `18263`，对应路由即为 [`/oilchem/list/140/18263`](https://rsshub.app/oilchem/list/140/18263)
+[**甲醇热点聚焦**](https://list.oilchem.net/140/18263) <https://list.oilchem.net/140/18263> 中，类别 id 为 `list`，分类 id 为 `140`，子分类 id 为 `18263`，对应路由即为 [`/oilchem/list/140/18263`](https://rsshub.moeyy.cn/oilchem/list/140/18263)
 
 </Route>
 
@@ -3503,9 +3503,9 @@ column 为 third 时可选的 category:
 
 :::tip
 
-除了直接订阅分类全部文章（如 [每週專題](https://aamacau.com/topics/weeklytopic) 的对应路由为 [/aamacau/weeklytopic](https://rsshub.app/aamacau/weeklytopic)），你也可以订阅特定的专题，如 [【9-12】2021 澳門立法會選舉](https://aamacau.com/topics/【9-12】2021澳門立法會選舉) 的对应路由为 [/【9-12】2021 澳門立法會選舉](https://rsshub.app/aamacau/【9-12】2021澳門立法會選舉)。
+除了直接订阅分类全部文章（如 [每週專題](https://aamacau.com/topics/weeklytopic) 的对应路由为 [/aamacau/weeklytopic](https://rsshub.moeyy.cn/aamacau/weeklytopic)），你也可以订阅特定的专题，如 [【9-12】2021 澳門立法會選舉](https://aamacau.com/topics/【9-12】2021澳門立法會選舉) 的对应路由为 [/【9-12】2021 澳門立法會選舉](https://rsshub.moeyy.cn/aamacau/【9-12】2021澳門立法會選舉)。
 
-分类中的专题也可以单独订阅，如 [新聞事件](https://aamacau.com/topics/case) 中的 [「武漢肺炎」新聞檔案](https://aamacau.com/topics/case/「武漢肺炎」新聞檔案) 对应路由为 [/case/「武漢肺炎」新聞檔案](https://rsshub.app/aamacau/case/「武漢肺炎」新聞檔案)。
+分类中的专题也可以单独订阅，如 [新聞事件](https://aamacau.com/topics/case) 中的 [「武漢肺炎」新聞檔案](https://aamacau.com/topics/case/「武漢肺炎」新聞檔案) 对应路由为 [/case/「武漢肺炎」新聞檔案](https://rsshub.moeyy.cn/aamacau/case/「武漢肺炎」新聞檔案)。
 
 同理，其他分类同上例子也可以订阅特定的单独专题。
 
@@ -3593,7 +3593,7 @@ column 为 third 时可选的 category:
 
 下表为科室对应的 sid，若想获得 tid，可以到对应科室页面 URL 中寻找 `t_id` 字段的值，下面是一个例子：
 
-如 [肿瘤 - NSCLC](https://www.medsci.cn/department/details?s_id=5&t_id=277) 的 URL 为 <https://www.medsci.cn/department/details?s_id=5&t_id=277>，可以看到此时 `s_id` 对应 `sid` 的值为 5， `t_id` 对应 `tid` 的值为 277，所以可以得到路由 [`/medsci/5/277`](https://rsshub.app/medsci/5/277)
+如 [肿瘤 - NSCLC](https://www.medsci.cn/department/details?s_id=5&t_id=277) 的 URL 为 <https://www.medsci.cn/department/details?s_id=5&t_id=277>，可以看到此时 `s_id` 对应 `sid` 的值为 5， `t_id` 对应 `tid` 的值为 277，所以可以得到路由 [`/medsci/5/277`](https://rsshub.moeyy.cn/medsci/5/277)
 
 :::
 

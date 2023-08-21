@@ -204,19 +204,19 @@ Please skip the local service area code for `name`, for example `https://outage.
 
 :::tip
 
-若订阅全国的全部预警信息，此时路由为 [`/cneb/yjxx`](https://rsshub.app/cneb/yjxx)。
+若订阅全国的全部预警信息，此时路由为 [`/cneb/yjxx`](https://rsshub.moeyy.cn/cneb/yjxx)。
 
-若订阅全国的 **红色** 预警信息，此时路由为 [`/cneb/yjxx/红色`](https://rsshub.app/cneb/yjxx/红色)。
+若订阅全国的 **红色** 预警信息，此时路由为 [`/cneb/yjxx/红色`](https://rsshub.moeyy.cn/cneb/yjxx/红色)。
 
-若订阅 **北京市** 的全部预警信息，此时路由为 [`/cneb/yjxx/北京市`](https://rsshub.app/cneb/yjxx/北京市)。
+若订阅 **北京市** 的全部预警信息，此时路由为 [`/cneb/yjxx/北京市`](https://rsshub.moeyy.cn/cneb/yjxx/北京市)。
 
-若订阅 **北京市** 的 **蓝色** 预警信息，此时路由为 [`/cneb/yjxx/北京市/蓝色`](https://rsshub.app/cneb/yjxx/北京市/蓝色)。
+若订阅 **北京市** 的 **蓝色** 预警信息，此时路由为 [`/cneb/yjxx/北京市/蓝色`](https://rsshub.moeyy.cn/cneb/yjxx/北京市/蓝色)。
 
-若订阅 **广东省** 的 **橙色** 预警信息，此时路由为 [`/cneb/yjxx/广东省/橙色`](https://rsshub.app/cneb/yjxx/广东省/橙色)。
+若订阅 **广东省** 的 **橙色** 预警信息，此时路由为 [`/cneb/yjxx/广东省/橙色`](https://rsshub.moeyy.cn/cneb/yjxx/广东省/橙色)。
 
-若订阅 **广东省广州市** 的全部预警信息，此时路由为 [`/cneb/yjxx/广东省/广州市`](https://rsshub.app/cneb/yjxx/广东省/广州市)。
+若订阅 **广东省广州市** 的全部预警信息，此时路由为 [`/cneb/yjxx/广东省/广州市`](https://rsshub.moeyy.cn/cneb/yjxx/广东省/广州市)。
 
-若订阅 **广东省广州市** 的 **黄色** 预警信息，此时路由为 [`/cneb/yjxx/广东省/广州市/黄色`](https://rsshub.app/cneb/yjxx/广东省/广州市/黄色)。
+若订阅 **广东省广州市** 的 **黄色** 预警信息，此时路由为 [`/cneb/yjxx/广东省/广州市/黄色`](https://rsshub.moeyy.cn/cneb/yjxx/广东省/广州市/黄色)。
 
 :::
 

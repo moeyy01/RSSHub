@@ -148,9 +148,9 @@
 
 :::tip
 
-若订阅 [最新 4K 电影](https://www.4ksj.com/forum-2-1.html)，网址为 <https://www.4ksj.com/forum-2-1.html>。截取 `https://www.4ksj.com/forum-` 到末尾 `.html` 的部分 `2-1` 作为参数，此时路由为 [`/4ksj/forum/2-1`](https://rsshub.app/4ksj/forum/2-1)。
+若订阅 [最新 4K 电影](https://www.4ksj.com/forum-2-1.html)，网址为 <https://www.4ksj.com/forum-2-1.html>。截取 `https://www.4ksj.com/forum-` 到末尾 `.html` 的部分 `2-1` 作为参数，此时路由为 [`/4ksj/forum/2-1`](https://rsshub.moeyy.cn/4ksj/forum/2-1)。
 
-若订阅子分类 [Dolby Vision 纪录片 4K 电影](https://www.4ksj.com/forum-4kdianying-s7-dianyingbiaozhun-3-dytypes-9-1.html)，网址为 <https://www.4ksj.com/forum-4kdianying-s7-dianyingbiaozhun-3-dytypes-9-1.html>。截取 `https://www.4ksj.com/forum-` 到末尾 `.html` 的部分 `4kdianying-s7-dianyingbiaozhun-3-dytypes-9-1` 作为参数，此时路由为 [`/4ksj/forum/4kdianying-s7-dianyingbiaozhun-3-dytypes-9-1`](https://rsshub.app/4ksj/forum/4kdianying-s7-dianyingbiaozhun-3-dytypes-9-1)。
+若订阅子分类 [Dolby Vision 纪录片 4K 电影](https://www.4ksj.com/forum-4kdianying-s7-dianyingbiaozhun-3-dytypes-9-1.html)，网址为 <https://www.4ksj.com/forum-4kdianying-s7-dianyingbiaozhun-3-dytypes-9-1.html>。截取 `https://www.4ksj.com/forum-` 到末尾 `.html` 的部分 `4kdianying-s7-dianyingbiaozhun-3-dytypes-9-1` 作为参数，此时路由为 [`/4ksj/forum/4kdianying-s7-dianyingbiaozhun-3-dytypes-9-1`](https://rsshub.moeyy.cn/4ksj/forum/4kdianying-s7-dianyingbiaozhun-3-dytypes-9-1)。
 
 :::
 
@@ -249,7 +249,7 @@ When `uncensored_makersr` as **Uncensored** is chosen as **Category**, the avail
 
 :::tip
 
-91porn has multiple backup domains, routes use the permanent domain <https://91porn.com> by default. If the domain is not accessible, you can add `?domain=<domain>` to specify the domain to be used. If you want to specify the backup domain to <https://0122.91p30.com>, you can add `?domain=0122.91p30.com` to the end of all 91porn routes, then the route will become [`/91porn?domain=0122.91p30.com`](https://rsshub.app/91porn?domain=0122.91p30.com)
+91porn has multiple backup domains, routes use the permanent domain <https://91porn.com> by default. If the domain is not accessible, you can add `?domain=<domain>` to specify the domain to be used. If you want to specify the backup domain to <https://0122.91p30.com>, you can add `?domain=0122.91p30.com` to the end of all 91porn routes, then the route will become [`/91porn?domain=0122.91p30.com`](https://rsshub.moeyy.cn/91porn?domain=0122.91p30.com)
 
 :::
 
@@ -335,9 +335,9 @@ When `uncensored_makersr` as **Uncensored** is chosen as **Category**, the avail
 
 :::tip
 
-分类页中域名末尾到 `.htm` 前的字段即为对应分类，如 [电影](https://www.btbtt20.com/forum-index-fid-951.htm) <https://www.btbtt20.com/forum-index-fid-951.htm> 中域名末尾到 `.htm` 前的字段为 `forum-index-fid-951`，所以路由应为 [`/btzj/forum-index-fid-951`](https://rsshub.app/btzj/forum-index-fid-951)
+分类页中域名末尾到 `.htm` 前的字段即为对应分类，如 [电影](https://www.btbtt20.com/forum-index-fid-951.htm) <https://www.btbtt20.com/forum-index-fid-951.htm> 中域名末尾到 `.htm` 前的字段为 `forum-index-fid-951`，所以路由应为 [`/btzj/forum-index-fid-951`](https://rsshub.moeyy.cn/btzj/forum-index-fid-951)
 
-部分分类页，如 [电影](https://www.btbtt20.com/forum-index-fid-951.htm)、[剧集](https://www.btbtt20.com/forum-index-fid-950.htm) 等，提供了更复杂的分类筛选。你可以将选项选中后，获得结果分类页 URL 中分类参数，构成路由。如选中分类 [高清电影 - 年份：2021 - 地区：欧美](https://www.btbtt20.com/forum-index-fid-1183-typeid1-0-typeid2-738-typeid3-10086-typeid4-0.htm) <https://www.btbtt20.com/forum-index-fid-1183-typeid1-0-typeid2-738-typeid3-10086-typeid4-0.htm> 中域名末尾到 `.htm` 前的字段为 `forum-index-fid-1183-typeid1-0-typeid2-738-typeid3-10086-typeid4-0`，所以路由应为 [`/btzj/forum-index-fid-1183-typeid1-0-typeid2-738-typeid3-10086-typeid4-0`](https://rsshub.app/btzj/forum-index-fid-1183-typeid1-0-typeid2-738-typeid3-10086-typeid4-0)
+部分分类页，如 [电影](https://www.btbtt20.com/forum-index-fid-951.htm)、[剧集](https://www.btbtt20.com/forum-index-fid-950.htm) 等，提供了更复杂的分类筛选。你可以将选项选中后，获得结果分类页 URL 中分类参数，构成路由。如选中分类 [高清电影 - 年份：2021 - 地区：欧美](https://www.btbtt20.com/forum-index-fid-1183-typeid1-0-typeid2-738-typeid3-10086-typeid4-0.htm) <https://www.btbtt20.com/forum-index-fid-1183-typeid1-0-typeid2-738-typeid3-10086-typeid4-0.htm> 中域名末尾到 `.htm` 前的字段为 `forum-index-fid-1183-typeid1-0-typeid2-738-typeid3-10086-typeid4-0`，所以路由应为 [`/btzj/forum-index-fid-1183-typeid1-0-typeid2-738-typeid3-10086-typeid4-0`](https://rsshub.moeyy.cn/btzj/forum-index-fid-1183-typeid1-0-typeid2-738-typeid3-10086-typeid4-0)
 
 :::
 
@@ -361,9 +361,9 @@ When `uncensored_makersr` as **Uncensored** is chosen as **Category**, the avail
 
 :::tip
 
-BT 之家的域名会变更，本路由以 <https://www.btbtt20.com> 为默认域名，若该域名无法访问，可以通过在路由后方加上 `?domain=<域名>` 指定路由访问的域名。如指定域名为 <https://www.btbtt15.com>，则在 `/btzj` 后加上 `?domain=btbtt15.com` 即可，此时路由为 [`/btzj?domain=btbtt15.com`](https://rsshub.app/btzj?domain=btbtt15.com)
+BT 之家的域名会变更，本路由以 <https://www.btbtt20.com> 为默认域名，若该域名无法访问，可以通过在路由后方加上 `?domain=<域名>` 指定路由访问的域名。如指定域名为 <https://www.btbtt15.com>，则在 `/btzj` 后加上 `?domain=btbtt15.com` 即可，此时路由为 [`/btzj?domain=btbtt15.com`](https://rsshub.moeyy.cn/btzj?domain=btbtt15.com)
 
-如果加入了分类参数，直接在分类参数后加入 `?domain=<域名>` 即可。如指定分类 [剧集](https://www.btbtt20.com/forum-index-fid-950.htm) <https://www.btbtt20.com/forum-index-fid-950.htm> 并指定域名为 <https://www.btbtt15.com>，即在 `/btzj/forum-index-fid-950` 后加上 `?domain=btbtt15.com`，此时路由为 [`/btzj/forum-index-fid-950?domain=btbtt15.com`](https://rsshub.app/btzj/forum-index-fid-950?domain=btbtt15.com)
+如果加入了分类参数，直接在分类参数后加入 `?domain=<域名>` 即可。如指定分类 [剧集](https://www.btbtt20.com/forum-index-fid-950.htm) <https://www.btbtt20.com/forum-index-fid-950.htm> 并指定域名为 <https://www.btbtt15.com>，即在 `/btzj/forum-index-fid-950` 后加上 `?domain=btbtt15.com`，此时路由为 [`/btzj/forum-index-fid-950?domain=btbtt15.com`](https://rsshub.moeyy.cn/btzj/forum-index-fid-950?domain=btbtt15.com)
 
 目前，你可以选择的域名有 `btbtt10-20.com` 共 10 个，或 `88btbbt.com`，该站也提供了专用网址查询工具。详见 [此贴](https://www.btbtt20.com/thread-index-fid-2-tid-4550191.htm)
 
@@ -451,7 +451,7 @@ BT 之家的域名会变更，本路由以 <https://www.btbtt20.com> 为默认�
 
 以下是一个例子：
 
-选择浏览 [Manga 分类](https://e-hentai.org/manga)，并指定 **不携带种子文件**，**只显示大图**，并只 **输出 5 个**。由于 [Manga 分类](https://e-hentai.org/manga) 的 URL <https://e-hentai.org/manga> 中对应分类字段为 `manga`，所以对应路由为 [`/e-hentai/category/manga/no/yes?limit=5`](https://rsshub.app/e-hentai/category/manga/no/yes?limit=5)
+选择浏览 [Manga 分类](https://e-hentai.org/manga)，并指定 **不携带种子文件**，**只显示大图**，并只 **输出 5 个**。由于 [Manga 分类](https://e-hentai.org/manga) 的 URL <https://e-hentai.org/manga> 中对应分类字段为 `manga`，所以对应路由为 [`/e-hentai/category/manga/no/yes?limit=5`](https://rsshub.moeyy.cn/e-hentai/category/manga/no/yes?limit=5)
 
 :::
 
@@ -473,7 +473,7 @@ BT 之家的域名会变更，本路由以 <https://www.btbtt20.com> 为默认�
 
 参数 **需要输出种子文件**、**需要显示大图** 的说明同上，以下是一个例子：
 
-选择浏览 [language:chinese 标签](https://e-hentai.org/tag/language:chinese)，并指定 **携带种子文件**，**不显示大图**。由于 [language:chinese 标签](https://e-hentai.org/tag/language:chinese) 的 URL <https://e-hentai.org/tag/language:chinese> 中对应标签字段为 `language:chinese`，所以对应路由为 [`/e-hentai/tag/language:chinese/true/false`](https://rsshub.app/e-hentai/tag/language:chinese/true/false)
+选择浏览 [language:chinese 标签](https://e-hentai.org/tag/language:chinese)，并指定 **携带种子文件**，**不显示大图**。由于 [language:chinese 标签](https://e-hentai.org/tag/language:chinese) 的 URL <https://e-hentai.org/tag/language:chinese> 中对应标签字段为 `language:chinese`，所以对应路由为 [`/e-hentai/tag/language:chinese/true/false`](https://rsshub.moeyy.cn/e-hentai/tag/language:chinese/true/false)
 
 :::
 
@@ -487,7 +487,7 @@ BT 之家的域名会变更，本路由以 <https://www.btbtt20.com> 为默认�
 
 参数 **需要输出种子文件**、**需要显示大图** 的说明同上，以下是一个例子：
 
-选择浏览 [f_search=cosplay 搜索结果](https://e-hentai.org/?f_search=cosplay)，并指定 **携带种子文件**，且 **显示大图**。由于 [f_search=cosplay 搜索结果](https://e-hentai.org/?f_search=cosplay) 的 URL <https://e-hentai.org/?f_search=cosplay> 中对应关键字字段为 `?` 后的 `f_search=cosplay`，所以对应路由为 [`/e-hentai/search/f_search=cosplay/y/y`](https://rsshub.app/e-hentai/search/f_search=cosplay/y/y)
+选择浏览 [f_search=cosplay 搜索结果](https://e-hentai.org/?f_search=cosplay)，并指定 **携带种子文件**，且 **显示大图**。由于 [f_search=cosplay 搜索结果](https://e-hentai.org/?f_search=cosplay) 的 URL <https://e-hentai.org/?f_search=cosplay> 中对应关键字字段为 `?` 后的 `f_search=cosplay`，所以对应路由为 [`/e-hentai/search/f_search=cosplay/y/y`](https://rsshub.moeyy.cn/e-hentai/search/f_search=cosplay/y/y)
 
 :::
 
@@ -543,9 +543,9 @@ Official RSS: <https://eztv.io/ezrss.xml>
 
 :::tip
 
-If you subscribe to [イヤーマイッタマイッタ](https://www.ibc.co.jp/radio/maitta/audio), the URL is <https://www.ibc.co.jp/radio/maitta/audio>. Intercept `maitta` between `https://www.ibc.co.jp/radio/` and `/audio/` as an argument, then the route will be [`/ibc/radio/maitta`](https://rsshub.app/ibc/radio/maitta).
+If you subscribe to [イヤーマイッタマイッタ](https://www.ibc.co.jp/radio/maitta/audio), the URL is <https://www.ibc.co.jp/radio/maitta/audio>. Intercept `maitta` between `https://www.ibc.co.jp/radio/` and `/audio/` as an argument, then the route will be [`/ibc/radio/maitta`](https://rsshub.moeyy.cn/ibc/radio/maitta).
 
-If you subscribe to [火曜ワイド「境界トラブル解決ラジオ！] (https://www.ibc.co.jp/radio/TochiKyokai/audio), the URL is <https://www.ibc.co.jp/radio/TochiKyokai/audio>. Intercept `TochiKyokai` between `https://www.ibc.co.jp/radio/` and `/audio/` as an argument, then the route is [`/ibc/radio/TochiKyokai`](https://rsshub.app/ibc/radio/TochiKyokai).
+If you subscribe to [火曜ワイド「境界トラブル解決ラジオ！] (https://www.ibc.co.jp/radio/TochiKyokai/audio), the URL is <https://www.ibc.co.jp/radio/TochiKyokai/audio>. Intercept `TochiKyokai` between `https://www.ibc.co.jp/radio/` and `/audio/` as an argument, then the route is [`/ibc/radio/TochiKyokai`](https://rsshub.moeyy.cn/ibc/radio/TochiKyokai).
 
 :::
 
@@ -565,9 +565,9 @@ You can change the language of each route to the languages listed below.
 
 :::tip
 
-JavBus has multiple backup domains, these routes use default domain <https://javbus.com>. If the domain is unreachable, you can add `?domain=<domain>` to the end of the route to specify the domain to visit. Let say you want to use the backup domain <https://javsee.icu>, you can add `?domain=javsee.icu` to the end of the route, then the route will be [`/javbus/en?domain=javsee.icu`](https://rsshub.app/javbus?domain=javsee.icu)
+JavBus has multiple backup domains, these routes use default domain <https://javbus.com>. If the domain is unreachable, you can add `?domain=<domain>` to the end of the route to specify the domain to visit. Let say you want to use the backup domain <https://javsee.icu>, you can add `?domain=javsee.icu` to the end of the route, then the route will be [`/javbus/en?domain=javsee.icu`](https://rsshub.moeyy.cn/javbus?domain=javsee.icu)
 
-**Note**: **Western** has different domain than the main site, the backup domains are also different. The default domain is <https://javbus.org> and you can add `?western_domain=<domain>` to the end of the route to specify the domain to visit. Let say you want to use the backup domain <https://javsee.one>, you can add `?western_domain=javsee.one` to the end of the route, then the route will be [`/javbus/western/en?western_domain=javsee.one`](https://rsshub.app/javbus/western?western_domain=javsee.one)
+**Note**: **Western** has different domain than the main site, the backup domains are also different. The default domain is <https://javbus.org> and you can add `?western_domain=<domain>` to the end of the route to specify the domain to visit. Let say you want to use the backup domain <https://javsee.one>, you can add `?western_domain=javsee.one` to the end of the route, then the route will be [`/javbus/western/en?western_domain=javsee.one`](https://rsshub.moeyy.cn/javbus/western?western_domain=javsee.one)
 
 :::
 
@@ -679,9 +679,9 @@ For more actresses [Western AV Idols](https://www.javbus.org/en/actresses)
 
 :::tip
 
-JavDB 有多个备用域名，本路由默认使用永久域名 <https://javdb.com> ，若该域名无法访问，可以通过在路由最后加上 `?domain=<域名>` 指定路由访问的域名。如指定备用域名为 <https://javdb36.com>，则在所有 JavDB 路由最后加上 `?domain=javdb36.com` 即可，此时路由为 [`/javdb?domain=javdb36.com`](https://rsshub.app/javdb?domain=javdb36.com)
+JavDB 有多个备用域名，本路由默认使用永久域名 <https://javdb.com> ，若该域名无法访问，可以通过在路由最后加上 `?domain=<域名>` 指定路由访问的域名。如指定备用域名为 <https://javdb36.com>，则在所有 JavDB 路由最后加上 `?domain=javdb36.com` 即可，此时路由为 [`/javdb?domain=javdb36.com`](https://rsshub.moeyy.cn/javdb?domain=javdb36.com)
 
-如果加入了 **分類** 参数，直接在分類参数后加入 `?domain=<域名>` 即可。如指定分類 URL 为 <https://javdb.com/tags?c2=5&c10=1> 并指定备用域名为 <https://javdb36.com>，即在 `/javdb/tags/c2=5&c10=1` 最后加上 `?domain=javdb36.com`，此时路由为 [`/javdb/tags/c2=5&c10=1?domain=javdb36.com`](https://rsshub.app/javdb/tags/c2=5&c10=1?domain=javdb36.com)
+如果加入了 **分類** 参数，直接在分類参数后加入 `?domain=<域名>` 即可。如指定分類 URL 为 <https://javdb.com/tags?c2=5&c10=1> 并指定备用域名为 <https://javdb36.com>，即在 `/javdb/tags/c2=5&c10=1` 最后加上 `?domain=javdb36.com`，此时路由为 [`/javdb/tags/c2=5&c10=1?domain=javdb36.com`](https://rsshub.moeyy.cn/javdb/tags/c2=5&c10=1?domain=javdb36.com)
 
 **排行榜**、**搜索**、**演員**、**片商** 参数同适用于 **分類** 参数的上述规则
 
@@ -1355,7 +1355,7 @@ When `mediaType` is `movie`, `sheet` should be:
 
 :::tip
 
-哔嘀影视有多个备用域名，路由默认使用域名 <https://bdys01.com>。若该域名无法访问，可以通过在路由最后加上 `?domain=<域名>` 指定路由访问的域名。如指定备用域名为 <https://bde4.icu>，则在所有哔嘀影视路由最后加上 `?domain=bde4.icu` 即可，此时路由为 [`/bdys?domain=bde4.icu`](https://rsshub.app/bdys?domain=bde4.icu)
+哔嘀影视有多个备用域名，路由默认使用域名 <https://bdys01.com>。若该域名无法访问，可以通过在路由最后加上 `?domain=<域名>` 指定路由访问的域名。如指定备用域名为 <https://bde4.icu>，则在所有哔嘀影视路由最后加上 `?domain=bde4.icu` 即可，此时路由为 [`/bdys?domain=bde4.icu`](https://rsshub.moeyy.cn/bdys?domain=bde4.icu)
 
 :::
 
@@ -1845,7 +1845,7 @@ Tiny Tiny RSS 会给所有 iframe 元素添加 `sandbox="allow-scripts"` 属性�
 
 如果订阅 [中国相声榜](https://www.radio.cn/pc-portal/sanji/detail.html?columnId=15682090498666)，其 URL 为 <https://www.radio.cn/pc-portal/sanji/detail.html?columnId=15682090498666>，可以得到 `columnId` 为 `15682090498666`
 
-所以对应路由为 [`/radio/album/15682090498666`](https://rsshub.app/radio/album/15682090498666)
+所以对应路由为 [`/radio/album/15682090498666`](https://rsshub.moeyy.cn/radio/album/15682090498666)
 
 :::tip
 
@@ -1861,7 +1861,7 @@ Tiny Tiny RSS 会给所有 iframe 元素添加 `sandbox="allow-scripts"` 属性�
 
 如果订阅 [共和国追梦人](http://www.radio.cn/pc-portal/sanji/detail.html?columnId=1552135)，其 URL 为 <https://www.radio.cn/pc-portal/sanji/detail.html?columnId=1552135>，可以得到 `columnId` 为 `1552135`
 
-所以对应路由为 [`/radio/1552135`](https://rsshub.app/radio/1552135)
+所以对应路由为 [`/radio/1552135`](https://rsshub.moeyy.cn/radio/1552135)
 
 :::tip
 
@@ -1879,7 +1879,7 @@ Tiny Tiny RSS 会给所有 iframe 元素添加 `sandbox="allow-scripts"` 属性�
 
 如果订阅 [新闻和报纸摘要](http://www.radio.cn/pc-portal/sanji/zhibo\_2.html?name=1395528)，其 URL 为 <http://www.radio.cn/pc-portal/sanji/zhibo_2.html?name=1395528>，可以得到 `name` 为 `1395528`
 
-所以对应路由为 [`/radio/zhibo/1395528`](https://rsshub.app/radio/zhibo/1395528)
+所以对应路由为 [`/radio/zhibo/1395528`](https://rsshub.moeyy.cn/radio/zhibo/1395528)
 
 :::tip
 
@@ -1919,7 +1919,7 @@ Tiny Tiny RSS 会给所有 iframe 元素添加 `sandbox="allow-scripts"` 属性�
 
 若只查看榜单前 50，可在订阅 URL 后加入 `?limit=50`。
 
-即，以 [热门节目](https://xyzrank.com/#/) 为例，路由为[`/xyzrank?limit=50`](https://rsshub.app/xyzrank?limit=50)。
+即，以 [热门节目](https://xyzrank.com/#/) 为例，路由为[`/xyzrank?limit=50`](https://rsshub.moeyy.cn/xyzrank?limit=50)。
 
 :::
 

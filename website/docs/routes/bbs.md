@@ -172,9 +172,9 @@
 
 <Route author="nczitzk" example="/elasticsearch-cn" path="/elasticsearch-cn/:params?" paramsDesc={['分类，可在对应分类页 URL 中找到']}>
 
-如 [Elasticsearch 最新](https://elasticsearch.cn/category-2) 的 URL 为 <https://elasticsearch.cn/category-2>，则分类参数处填写 `category-2`，最后得到路由地址 [`/elasticsearch-cn/category-2`](https://rsshub.app/elasticsearch-cn/category-2)。
+如 [Elasticsearch 最新](https://elasticsearch.cn/category-2) 的 URL 为 <https://elasticsearch.cn/category-2>，则分类参数处填写 `category-2`，最后得到路由地址 [`/elasticsearch-cn/category-2`](https://rsshub.moeyy.cn/elasticsearch-cn/category-2)。
 
-又如 [求职招聘 30 天热门](https://elasticsearch.cn/sort_type-hot\_\_\_\_category-12\__day-30) 的 URL 为 <https://elasticsearch.cn/sort_type-hot____category-12__day-30>，则分类参数处填写 `sort_type-hot____category-12__day-30`，最后得到路由地址 [`/elasticsearch-cn/sort_type-hot____category-12__day-30`](https://rsshub.app/elasticsearch-cn/sort_type-hot\_\_\_\_category-12\__day-30)。
+又如 [求职招聘 30 天热门](https://elasticsearch.cn/sort_type-hot\_\_\_\_category-12\__day-30) 的 URL 为 <https://elasticsearch.cn/sort_type-hot____category-12__day-30>，则分类参数处填写 `sort_type-hot____category-12__day-30`，最后得到路由地址 [`/elasticsearch-cn/sort_type-hot____category-12__day-30`](https://rsshub.moeyy.cn/elasticsearch-cn/sort_type-hot\_\_\_\_category-12\__day-30)。
 
 </Route>
 
@@ -637,7 +637,7 @@ When accessing Joeyray's Bar, `SCBOY_BBS_TOKEN` needs to be filled in `environme
 
 :::tip
 
-电竞分类参见 [游戏热帖](https://bbs.hupu.com/all-gg) 的对应路由 [`/hupu/all/all-gg`](https://rsshub.app/hupu/all/all-gg)。
+电竞分类参见 [游戏热帖](https://bbs.hupu.com/all-gg) 的对应路由 [`/hupu/all/all-gg`](https://rsshub.moeyy.cn/hupu/all/all-gg)。
 
 :::
 

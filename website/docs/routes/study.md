@@ -385,9 +385,9 @@ paramsDesc={['一个整数，筛选最近的limit场比赛，默认为5']}>
 
 分类字段处填写的是对应东莞教研网网址中中介于 **<https://www.dgjyw.com/>** 和 **.htm** 中间的一段。
 
-如 [通知](https://www.dgjyw.com/tz.htm) 的网址为 <https://www.dgjyw.com/tz.htm>，其中间字段为 `tz`，所以可得路由为 [`/dgjyw/tz`](https://rsshub.app/dgjyw/tz)；
+如 [通知](https://www.dgjyw.com/tz.htm) 的网址为 <https://www.dgjyw.com/tz.htm>，其中间字段为 `tz`，所以可得路由为 [`/dgjyw/tz`](https://rsshub.moeyy.cn/dgjyw/tz)；
 
-同理，[教育科研 - 科研文件](https://www.dgjyw.com/jyky/kywj.htm) 的网址为 <https://www.dgjyw.com/jyky/kywj.htm>，其中间字段为 `jyky/kywj`，所以可得路由为 [`/dgjyw/jyky/kywj`](https://rsshub.app/dgjyw/jyky/kywj)。
+同理，[教育科研 - 科研文件](https://www.dgjyw.com/jyky/kywj.htm) 的网址为 <https://www.dgjyw.com/jyky/kywj.htm>，其中间字段为 `jyky/kywj`，所以可得路由为 [`/dgjyw/jyky/kywj`](https://rsshub.moeyy.cn/dgjyw/jyky/kywj)。
 
 :::
 
@@ -451,9 +451,9 @@ paramsDesc={['一个整数，筛选最近的limit场比赛，默认为5']}>
 
 :::tip
 
-若订阅 [信息与政策](https://www.sdzk.cn/NewsList.aspx?BCID=1)，网址为 <https://www.sdzk.cn/NewsList.aspx?BCID=1>。截取 `BCID=1` 作为参数，此时路由为 [`/sdzk/1`](https://rsshub.app/sdzk/1)。
+若订阅 [信息与政策](https://www.sdzk.cn/NewsList.aspx?BCID=1)，网址为 <https://www.sdzk.cn/NewsList.aspx?BCID=1>。截取 `BCID=1` 作为参数，此时路由为 [`/sdzk/1`](https://rsshub.moeyy.cn/sdzk/1)。
 
-若订阅 [通知公告](https://www.sdzk.cn/NewsList.aspx?BCID=1&CID=16)，网址为 <https://www.sdzk.cn/NewsList.aspx?BCID=1&CID=16>。截取 `BCID=1` 与 `CID=16` 作为参数，此时路由为 [`/sdzk/1/16`](https://rsshub.app/sdzk/1/16)。
+若订阅 [通知公告](https://www.sdzk.cn/NewsList.aspx?BCID=1&CID=16)，网址为 <https://www.sdzk.cn/NewsList.aspx?BCID=1&CID=16>。截取 `BCID=1` 与 `CID=16` 作为参数，此时路由为 [`/sdzk/1/16`](https://rsshub.moeyy.cn/sdzk/1/16)。
 
 :::
 
@@ -671,7 +671,7 @@ paramsDesc={['一个整数，筛选最近的limit场比赛，默认为5']}>
 
 | Node.js 专栏                                             | 阮一峰每周分享                                                 | 语雀使用手册                                             |
 | -------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------- |
-| [/yuque/egg/nodejs](https://rsshub.app/yuque/egg/nodejs) | [/yuque/ruanyf/weekly](https://rsshub.app/yuque/ruanyf/weekly) | [/yuque/yuque/help](https://rsshub.app/yuque/yuque/help) |
+| [/yuque/egg/nodejs](https://rsshub.moeyy.cn/yuque/egg/nodejs) | [/yuque/ruanyf/weekly](https://rsshub.moeyy.cn/yuque/ruanyf/weekly) | [/yuque/yuque/help](https://rsshub.moeyy.cn/yuque/yuque/help) |
 
 </Route>
 

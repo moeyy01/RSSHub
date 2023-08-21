@@ -17,7 +17,7 @@ sidebar_position: 1
 | 字段            | 描述                  | 默认值 | 兼容性 |
 | :----------      | :----------         | :----------- | :------------ |
 | **`title`**       | *（推荐）* 源的名称，应为纯文本   | `RSSHub`     | A, J, R |
-| **`link`**        | *（推荐）* 与源关联的网站网址，应链接到一个可读的网站 | `https://rsshub.app`  | A, J, R |
+| **`link`**        | *（推荐）* 与源关联的网站网址，应链接到一个可读的网站 | `https://rsshub.moeyy.cn`  | A, J, R |
 | **`description`** | *（可选）* 源的摘要，应为纯文本   | 如果未指定，默认为 **`title`** | J, R |
 | **`language`**    | *（可选）* 源的主要语言，应为 [RSS语言代码](https://www.rssboard.org/rss-language-codes) 或 ISO 639 语言代码之一 | `zh-cn`               | J, R |
 | **`image`**       | *（推荐）* 表示频道的高清图片的网址 | `undefinded` | J, R |

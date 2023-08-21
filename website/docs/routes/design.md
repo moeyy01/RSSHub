@@ -95,7 +95,7 @@ This route requires API key, therefore it's only available when self-hosting, re
 
 <Route author="nczitzk" example="/logonews/category/news/newsletter" path="/logonews/category/:category/:type" paramsDesc={['分类，可在对应分类页 URL 中找到', '类型，可在对应分类页 URL 中找到']}>
 
-如 [简讯 - 标志情报局](https://www.logonews.cn/category/news/newsletter) 的 URL 为 <https://www.logonews.cn/category/news/newsletter>，可得路由为 [`/logonews/category/news/newsletter`](https://rsshub.app/logonews/category/news/newsletter)。
+如 [简讯 - 标志情报局](https://www.logonews.cn/category/news/newsletter) 的 URL 为 <https://www.logonews.cn/category/news/newsletter>，可得路由为 [`/logonews/category/news/newsletter`](https://rsshub.moeyy.cn/logonews/category/news/newsletter)。
 
 </Route>
 
@@ -103,7 +103,7 @@ This route requires API key, therefore it's only available when self-hosting, re
 
 <Route author="nczitzk" example="/logonews/tag/china" path="/logonews/tag/:tag" paramsDesc={['标签，可在对应标签页 URL 中找到']}>
 
-如 [中国 - 标志情报局](https://www.logonews.cn/tag/china) 的 URL 为 <https://www.logonews.cn/tag/china>，可得路由为 [`/logonews/tag/china`](https://rsshub.app/logonews/tag/china)。
+如 [中国 - 标志情报局](https://www.logonews.cn/tag/china) 的 URL 为 <https://www.logonews.cn/tag/china>，可得路由为 [`/logonews/tag/china`](https://rsshub.moeyy.cn/logonews/tag/china)。
 
 </Route>
 
@@ -115,7 +115,7 @@ This route requires API key, therefore it's only available when self-hosting, re
 
 <Route author="nczitzk" example="/logonews/work/categorys/hotel-catering" path="/logonews/work/categorys/:category" paramsDesc={['分类，可在对应分类页 URL 中找到']}>
 
-如 [LOGO 作品分类：酒店餐饮 - 标志情报局](https://www.logonews.cn/work/categorys/hotel-catering) 的 URL 为 <https://www.logonews.cn/work/categorys/hotel-catering>，可得路由为 [`/logonews/work/categorys/hotel-catering`](https://rsshub.app/logonews/work/categorys/hotel-catering)。
+如 [LOGO 作品分类：酒店餐饮 - 标志情报局](https://www.logonews.cn/work/categorys/hotel-catering) 的 URL 为 <https://www.logonews.cn/work/categorys/hotel-catering>，可得路由为 [`/logonews/work/categorys/hotel-catering`](https://rsshub.moeyy.cn/logonews/work/categorys/hotel-catering)。
 
 </Route>
 
@@ -123,7 +123,7 @@ This route requires API key, therefore it's only available when self-hosting, re
 
 <Route author="nczitzk" example="/logonews/work/tags/旅游" path="/logonews/work/tags/:tag?" paramsDesc={['标签，可在对应标签页 URL 中找到']}>
 
-如 [LOGO 标签：旅游 - 标志情报局](https://www.logonews.cn/work/tags/旅游) 的 URL 为 [https://www.logonews.cn/work/tags/ 旅游](https://www.logonews.cn/work/tags/旅游)，可得路由为 [`/logonews/work/tags/旅游`](https://rsshub.app/logonews/work/tags/旅游)。
+如 [LOGO 标签：旅游 - 标志情报局](https://www.logonews.cn/work/tags/旅游) 的 URL 为 [https://www.logonews.cn/work/tags/ 旅游](https://www.logonews.cn/work/tags/旅游)，可得路由为 [`/logonews/work/tags/旅游`](https://rsshub.moeyy.cn/logonews/work/tags/旅游)。
 
 </Route>
 
@@ -257,7 +257,7 @@ Default is under 'https://www.methodstudios.com/en/features'.
 
 <https://www.zcool.com.cn/discover?cate=0&subCate=617&hasVideo=0&city=0&college=0&recommendLevel=2&sort=9>
 
-此时其查询参数为 `cate=0&subCate=617&hasVideo=0&city=0&college=0&recommendLevel=2&sort=9`。其对应的路由即 [`/zcool/discover/cate=0&subCate=617&hasVideo=0&city=0&college=0&recommendLevel=2&sort=9`](https://rsshub.app/zcool/discover/cate=0&subCate=617&hasVideo=0&city=0&college=0&recommendLevel=2&sort=9)
+此时其查询参数为 `cate=0&subCate=617&hasVideo=0&city=0&college=0&recommendLevel=2&sort=9`。其对应的路由即 [`/zcool/discover/cate=0&subCate=617&hasVideo=0&city=0&college=0&recommendLevel=2&sort=9`](https://rsshub.moeyy.cn/zcool/discover/cate=0&subCate=617&hasVideo=0&city=0&college=0&recommendLevel=2&sort=9)
 
 </Route>
 
@@ -265,13 +265,13 @@ Default is under 'https://www.methodstudios.com/en/features'.
 
 <Route author="nczitzk" example="/zcool/discover" path="/zcool/discover/:query?/:subCate?/:hasVideo?/:city?/:college?/:recommendLevel?/:sort?" paramsDesc={['查询参数或分类，若填写分类见下表，默认为空 或 `0` 即精选', '子分类，见下表，默认为 `0` 即该父分类下全部', '是否含视频，默认为 `0` 即全部，亦可选 `1` 即含视频', '地区代码，填入发现页中 `选择城市` 中的各级地名，如 `亚洲`、`中国`、`北京`、`纽约`、`巴黎`等', '学校，默认为 `0` 即全部', '推荐等级，见下表，默认为 `2` 即编辑精选', '排序方式，可选 `0` 即最新发布 或 `9` 即默认排序，默认为 `9`']} radar="1" rssbud="1">
 
-查看 **精选** 分类下的全部内容，其他参数选择默认，可直接使用路由 [`/zcool/discover/0`](https://rsshub.app/zcool/discover/0)
+查看 **精选** 分类下的全部内容，其他参数选择默认，可直接使用路由 [`/zcool/discover/0`](https://rsshub.moeyy.cn/zcool/discover/0)
 
-查看 **精选** 分类下的 **运营设计** 子分类全部内容，其他参数选择默认，可直接使用路由 [`/zcool/discover/0/617`](https://rsshub.app/zcool/discover/0/617)
+查看 **精选** 分类下的 **运营设计** 子分类全部内容，其他参数选择默认，可直接使用路由 [`/zcool/discover/0/617`](https://rsshub.moeyy.cn/zcool/discover/0/617)
 
-在 **精选** 分类下的 **运营设计** 子分类全部内容基础上，筛选出有 **视频**，可直接使用路由 [`/zcool/discover/0/617/1`](https://rsshub.app/zcool/discover/0/617/1)
+在 **精选** 分类下的 **运营设计** 子分类全部内容基础上，筛选出有 **视频**，可直接使用路由 [`/zcool/discover/0/617/1`](https://rsshub.moeyy.cn/zcool/discover/0/617/1)
 
-在 **精选** 分类下的 **运营设计** 子分类全部内容基础上，筛选出有 **视频**，且城市选择 **北京**，可直接使用路由 [`/zcool/discover/0/617/1/北京`](https://rsshub.app/zcool/discover/0/617/1/北京)
+在 **精选** 分类下的 **运营设计** 子分类全部内容基础上，筛选出有 **视频**，且城市选择 **北京**，可直接使用路由 [`/zcool/discover/0/617/1/北京`](https://rsshub.moeyy.cn/zcool/discover/0/617/1/北京)
 
 :::tip 
 

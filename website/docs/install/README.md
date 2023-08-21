@@ -246,7 +246,7 @@ $ pm2 start lib/index.js --name rsshub
 
 Visit [http://127.0.0.1:1200/](http://127.0.0.1:1200/), and enjoy it! ✅
 
-Refer to our [Guide](https://docs.rsshub.app/) for usage. Replace `https://rsshub.app/` with `http://localhost:1200` in any route example to see the effect.
+Refer to our [Guide](https://docs.rsshub.app/) for usage. Replace `https://rsshub.moeyy.cn/` with `http://localhost:1200` in any route example to see the effect.
 
 ### Configuration
 
@@ -658,9 +658,9 @@ Access code is the md5 generated based on the access key + route, eg:
 | ----------- | ----------------- | ---------------------------------------- | -------------------------------- |
 | ILoveRSSHub | /qdaily/column/59 | md5('/qdaily/column/59' + 'ILoveRSSHub') | 0f820530128805ffc10351f22b5fd121 |
 
--   Routes are accessible via `code`, eg: <https://rsshub.app/qdaily/column/59?code=0f820530128805ffc10351f22b5fd121>
+-   Routes are accessible via `code`, eg: <https://rsshub.moeyy.cn/qdaily/column/59?code=0f820530128805ffc10351f22b5fd121>
 
--   Or using `key` directly, eg: <https://rsshub.app/qdaily/column/59?key=ILoveRSSHub>
+-   Or using `key` directly, eg: <https://rsshub.moeyy.cn/qdaily/column/59?key=ILoveRSSHub>
 
 See the relation between access key/code and white/blacklisting.
 
@@ -671,7 +671,7 @@ See the relation between access key/code and white/blacklisting.
 
 ### Logging Configurations
 
-`DEBUG_INFO`: display route information on the homepage for debugging purposes. When set to neither `true` nor `false`, use parameter `debug` to enable display, eg: <https://rsshub.app/?debug=value_of_DEBUG_INFO> . Default to `true`
+`DEBUG_INFO`: display route information on the homepage for debugging purposes. When set to neither `true` nor `false`, use parameter `debug` to enable display, eg: <https://rsshub.moeyy.cn/?debug=value_of_DEBUG_INFO> . Default to `true`
 
 `LOGGER_LEVEL`: specifies the maximum [level](https://github.com/winstonjs/winston#logging-levels) of messages to the console and log file, default to `info`
 

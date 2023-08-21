@@ -17,7 +17,7 @@ The following table lists the fields you can use to customize your RSS feed at c
 | Field       | Description                                                                   | Default      | Compatibility |
 | :---------- | :----------                                                                   | :----------- | :------------ |
 | **`title`**       | *(Recommended)* The name of the feed, which should be plain text only   | `RSSHub`     | A, J, R |
-| **`link`**        | *(Recommended)* The URL of the website associated with the feed, which should link to a human-readable website | `https://rsshub.app`  | A, J, R |
+| **`link`**        | *(Recommended)* The URL of the website associated with the feed, which should link to a human-readable website | `https://rsshub.moeyy.cn`  | A, J, R |
 | **`description`** | *(Optional)* The summary of the feed, which should be plain text only   | If not specified, defaults to **`title`** | J, R |
 | **`language`**    | *(Optional)* The primary language of the feed, which should be a value from [RSS Language Codes](https://www.rssboard.org/rss-language-codes) or ISO 639 language codes | `zh-cn`               | J, R |
 | **`image`**       | *(Recommended)* The URL of the image that represents the channel, which should be relatively large and square | `undefinded` | J, R |

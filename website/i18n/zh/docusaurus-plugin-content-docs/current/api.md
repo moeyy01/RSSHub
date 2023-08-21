@@ -16,7 +16,7 @@ RSSHub 提供下列 API:
 
 :::
 
-举例: <https://rsshub.app/api/routes/bilibili>
+举例: <https://rsshub.moeyy.cn/api/routes/bilibili>
 
 路由: `/api/routes/:name?`
 

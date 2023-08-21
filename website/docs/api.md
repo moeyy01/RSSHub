@@ -16,7 +16,7 @@ This API **will not** return any routes under `lib/protected_router.js`.
 
 :::
 
-Eg: <https://rsshub.app/api/routes/github>
+Eg: <https://rsshub.moeyy.cn/api/routes/github>
 
 Route: `/api/routes/:name?`
 

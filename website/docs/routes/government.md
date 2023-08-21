@@ -199,7 +199,7 @@ Language
 
 路径处填写对应页面 URL 中 `http://kjt.ah.gov.cn/` 和 `/index.html` 之间的字段。下面是一个例子。
 
-若订阅 [通知公告](http://kjt.ah.gov.cn/kjzx/tzgg/index.html) 则将对应页面 URL <http://kjt.ah.gov.cn/kjzx/tzgg/index.html> 中 `http://kjt.ah.gov.cn/` 和 `/index.html` 之间的字段 `kjzx/tzgg` 作为路径填入。此时路由为 [`/gov/anhui/kjt/kjzx/tzgg`](https://rsshub.app/gov/anhui/kjt/kjzx/tzgg)
+若订阅 [通知公告](http://kjt.ah.gov.cn/kjzx/tzgg/index.html) 则将对应页面 URL <http://kjt.ah.gov.cn/kjzx/tzgg/index.html> 中 `http://kjt.ah.gov.cn/` 和 `/index.html` 之间的字段 `kjzx/tzgg` 作为路径填入。此时路由为 [`/gov/anhui/kjt/kjzx/tzgg`](https://rsshub.moeyy.cn/gov/anhui/kjt/kjzx/tzgg)
 
 :::
 
@@ -221,7 +221,7 @@ Language
 
 路径处填写对应页面 URL 中 `https://www.bjsk.org.cn/` 和 `.html` 之间的字段。下面是一个例子。
 
-若订阅 [社科资讯 > 社科要闻](https://www.bjsk.org.cn/newslist-1394-1474-0.html) 则将对应页面 URL <https://www.bjsk.org.cn/newslist-1394-1474-0.html> 中 `https://www.bjsk.org.cn/` 和 `.html` 之间的字段 `newslist-1394-1474-0` 作为路径填入。此时路由为 [`/bjsk/newslist-1394-1474-0`](https://rsshub.app/bjsk/newslist-1394-1474-0)
+若订阅 [社科资讯 > 社科要闻](https://www.bjsk.org.cn/newslist-1394-1474-0.html) 则将对应页面 URL <https://www.bjsk.org.cn/newslist-1394-1474-0.html> 中 `https://www.bjsk.org.cn/` 和 `.html` 之间的字段 `newslist-1394-1474-0` 作为路径填入。此时路由为 [`/bjsk/newslist-1394-1474-0`](https://rsshub.moeyy.cn/bjsk/newslist-1394-1474-0)
 
 :::
 
@@ -467,9 +467,9 @@ Language
 
 路径处填写对应页面 URL 中 `http://www.stats.gov.cn/` 后的字段。下面是一个例子。
 
-若订阅 [数据 > 数据解读](http://www.stats.gov.cn/sj/sjjd/) 则将对应页面 URL <http://www.stats.gov.cn/sj/sjjd/> 中 `http://www.stats.gov.cn/` 后的字段 `sj/sjjd` 作为路径填入。此时路由为 [`/gov/stats/sj/sjjd`](https://rsshub.app/gov/stats/sj/sjjd)
+若订阅 [数据 > 数据解读](http://www.stats.gov.cn/sj/sjjd/) 则将对应页面 URL <http://www.stats.gov.cn/sj/sjjd/> 中 `http://www.stats.gov.cn/` 后的字段 `sj/sjjd` 作为路径填入。此时路由为 [`/gov/stats/sj/sjjd`](https://rsshub.moeyy.cn/gov/stats/sj/sjjd)
 
-若订阅 [新闻 > 时政要闻 > 中央精神](http://www.stats.gov.cn/xw/szyw/zyjs/) 则将对应页面 URL <http://www.stats.gov.cn/xw/szyw/zyjs/> 中 `http://www.stats.gov.cn/` 后的字段 `xw/szyw/zyjs` 作为路径填入。此时路由为 [`/gov/stats/xw/szyw/zyjs`](https://rsshub.app/gov/stats/xw/szyw/zyjs)
+若订阅 [新闻 > 时政要闻 > 中央精神](http://www.stats.gov.cn/xw/szyw/zyjs/) 则将对应页面 URL <http://www.stats.gov.cn/xw/szyw/zyjs/> 中 `http://www.stats.gov.cn/` 后的字段 `xw/szyw/zyjs` 作为路径填入。此时路由为 [`/gov/stats/xw/szyw/zyjs`](https://rsshub.moeyy.cn/gov/stats/xw/szyw/zyjs)
 
 :::
 
@@ -516,7 +516,7 @@ Language
 
 路径处填写对应页面 URL 中 `https://www.nmpa.gov.cn/` 与 `/index.html` 之间的字段，下面是一个例子。
 
-若订阅 [公告通告](https://www.nmpa.gov.cn/xxgk/ggtg/index.html) 则将对应页面 URL <https://www.nmpa.gov.cn/xxgk/ggtg/index.html> 中 `https://www.nmpa.gov.cn/` 和 `/index.html` 之间的字段 `xxgk/ggtg` 作为路径填入。此时路由为 [`/gov/nmpa/xxgk/ggtg`](https://rsshub.app/gov/nmpa/xxgk/ggtg)
+若订阅 [公告通告](https://www.nmpa.gov.cn/xxgk/ggtg/index.html) 则将对应页面 URL <https://www.nmpa.gov.cn/xxgk/ggtg/index.html> 中 `https://www.nmpa.gov.cn/` 和 `/index.html` 之间的字段 `xxgk/ggtg` 作为路径填入。此时路由为 [`/gov/nmpa/xxgk/ggtg`](https://rsshub.moeyy.cn/gov/nmpa/xxgk/ggtg)
 
 :::
 
@@ -532,7 +532,7 @@ Language
 
 路径处填写对应页面 URL 中 `https://www.nifdc.gov.cn/nifdc/` 与 `/index.html` 之间的字段，下面是一个例子。
 
-若订阅 [公告通告](https://www.nifdc.org.cn/nifdc/bshff/ylqxbzhgl/qxggtzh/index.html) 则将对应页面 URL <https://www.nifdc.org.cn/nifdc/bshff/ylqxbzhgl/qxggtzh/index.html> 中 `https://www.nifdc.org.cn/nifdc/` 和 `/index.html` 之间的字段 `bshff/ylqxbzhgl/qxggtzh` 作为路径填入。此时路由为 [`/gov/nifdc/bshff/ylqxbzhgl/qxggtzh`](https://rsshub.app/gov/nifdc/bshff/ylqxbzhgl/qxggtzh)
+若订阅 [公告通告](https://www.nifdc.org.cn/nifdc/bshff/ylqxbzhgl/qxggtzh/index.html) 则将对应页面 URL <https://www.nifdc.org.cn/nifdc/bshff/ylqxbzhgl/qxggtzh/index.html> 中 `https://www.nifdc.org.cn/nifdc/` 和 `/index.html` 之间的字段 `bshff/ylqxbzhgl/qxggtzh` 作为路径填入。此时路由为 [`/gov/nifdc/bshff/ylqxbzhgl/qxggtzh`](https://rsshub.moeyy.cn/gov/nifdc/bshff/ylqxbzhgl/qxggtzh)
 
 :::
 
@@ -548,7 +548,7 @@ Language
 
 路径处填写对应页面 URL 中 `https://www.cmde.org.cn/` 与 `/index.html` 之间的字段，下面是一个例子。
 
-若订阅 [最新要闻](https://www.cmde.org.cn/xwdt/zxyw/index.html) 则将对应页面 URL <https://www.cmde.org.cn/xwdt/zxyw/index.html> 中 `https://www.cmde.org.cn/` 和 `/index.html` 之间的字段 `xwdt/zxyw` 作为路径填入。此时路由为 [`/cmde/xwdt/zxyw`](https://rsshub.app//cmde/xwdt/zxyw)
+若订阅 [最新要闻](https://www.cmde.org.cn/xwdt/zxyw/index.html) 则将对应页面 URL <https://www.cmde.org.cn/xwdt/zxyw/index.html> 中 `https://www.cmde.org.cn/` 和 `/index.html` 之间的字段 `xwdt/zxyw` 作为路径填入。此时路由为 [`/cmde/xwdt/zxyw`](https://rsshub.moeyy.cn//cmde/xwdt/zxyw)
 
 :::
 
@@ -606,13 +606,13 @@ Language
 
 :::tip
 
-若订阅 [基金要闻 - 通知公告](https://www.nsfc.gov.cn/publish/portal0/tab442)，网址为 <https://www.nsfc.gov.cn/publish/portal0/tab442>。截取 `https://www.nsfc.gov.cn` 到末尾的部分 `/publish/portal0/tab442` 作为参数，此时路由为 [`/gov/nsfc/publish/portal0/tab442`](https://rsshub.app/gov/nsfc/publish/portal0/tab442)。
+若订阅 [基金要闻 - 通知公告](https://www.nsfc.gov.cn/publish/portal0/tab442)，网址为 <https://www.nsfc.gov.cn/publish/portal0/tab442>。截取 `https://www.nsfc.gov.cn` 到末尾的部分 `/publish/portal0/tab442` 作为参数，此时路由为 [`/gov/nsfc/publish/portal0/tab442`](https://rsshub.moeyy.cn/gov/nsfc/publish/portal0/tab442)。
 
-当然，也可以填入路径在下表中对应的快捷方式。其中 [基金要闻 - 通知公告](https://www.nsfc.gov.cn/publish/portal0/tab442) 的快捷方式为 `tzgg`，此时路由为 [`/gov/nsfc/tzgg`](https://rsshub.app/gov/nsfc/tzgg)。
+当然，也可以填入路径在下表中对应的快捷方式。其中 [基金要闻 - 通知公告](https://www.nsfc.gov.cn/publish/portal0/tab442) 的快捷方式为 `tzgg`，此时路由为 [`/gov/nsfc/tzgg`](https://rsshub.moeyy.cn/gov/nsfc/tzgg)。
 
-若订阅 [管理科学部 - 通知公告](https://www.nsfc.gov.cn/publish/portal0/tab1212)，网址为 <https://www.nsfc.gov.cn/publish/portal0/tab1212>。截取 `https://www.nsfc.gov.cn` 到末尾的部分 `/publish/portal0/tab1212` 作为参数，此时路由为 [`/gov/nsfc/publish/portal0/tab1212`](https://rsshub.app/gov/nsfc/publish/portal0/tab1212)。
+若订阅 [管理科学部 - 通知公告](https://www.nsfc.gov.cn/publish/portal0/tab1212)，网址为 <https://www.nsfc.gov.cn/publish/portal0/tab1212>。截取 `https://www.nsfc.gov.cn` 到末尾的部分 `/publish/portal0/tab1212` 作为参数，此时路由为 [`/gov/nsfc/publish/portal0/tab1212`](https://rsshub.moeyy.cn/gov/nsfc/publish/portal0/tab1212)。
 
-同理，也可以填入路径在下表中对应的快捷方式。其中 [管理科学部 - 通知公告](https://www.nsfc.gov.cn/publish/portal0/tab1212) 的快捷方式为 `glkxb-tzgg`，此时路由为 [`/gov/nsfc/glkxb-tzgg`](https://rsshub.app/gov/nsfc/glkxb-tzgg)。
+同理，也可以填入路径在下表中对应的快捷方式。其中 [管理科学部 - 通知公告](https://www.nsfc.gov.cn/publish/portal0/tab1212) 的快捷方式为 `glkxb-tzgg`，此时路由为 [`/gov/nsfc/glkxb-tzgg`](https://rsshub.moeyy.cn/gov/nsfc/glkxb-tzgg)。
 
 :::
 
@@ -652,7 +652,7 @@ Language
 
 路径处填写对应页面 URL 中 `http://www.sasac.gov.cn/` 与 `/index.html` 之间的字段，下面是一个例子。
 
-若订阅 [其他](http://www.sasac.gov.cn/n2588030/n16436141/index.html) 则将对应页面 URL <http://www.sasac.gov.cn/n2588030/n16436141/index.html> 中 `http://www.sasac.gov.cn/` 和 `/index.html` 之间的字段 `n2588030/n16436141` 作为路径填入。此时路由为 [`/gov/sasac/n2588030/n16436141`](https://rsshub.app/gov/nmpa/n2588030/n16436141)
+若订阅 [其他](http://www.sasac.gov.cn/n2588030/n16436141/index.html) 则将对应页面 URL <http://www.sasac.gov.cn/n2588030/n16436141/index.html> 中 `http://www.sasac.gov.cn/` 和 `/index.html` 之间的字段 `n2588030/n16436141` 作为路径填入。此时路由为 [`/gov/sasac/n2588030/n16436141`](https://rsshub.moeyy.cn/gov/nmpa/n2588030/n16436141)
 
 :::
 
@@ -761,9 +761,9 @@ Language
 
 路径处填写对应页面 URL 中茂名有关政府网站的域名最前面的部分和域名后的字段。下面是一个例子。
 
-若订阅 [茂名市人民政府门户网站 > 政务公开 > 政策解读](http://www.maoming.gov.cn/zwgk/zcjd/jd/) 则将对应页面 URL <http://www.maoming.gov.cn/zwgk/zcjd/jd/> 中 `http://www.maoming.gov.cn/` 的字段 `www` 和 `/zwgk/zcjd/jd/` 作为路径填入。此时路由为 [`/gov/maoming/www/zwgk/zcjd/jd/`](https://rsshub.app/gov/maoming/www/zwgk/zcjd/jd/)
+若订阅 [茂名市人民政府门户网站 > 政务公开 > 政策解读](http://www.maoming.gov.cn/zwgk/zcjd/jd/) 则将对应页面 URL <http://www.maoming.gov.cn/zwgk/zcjd/jd/> 中 `http://www.maoming.gov.cn/` 的字段 `www` 和 `/zwgk/zcjd/jd/` 作为路径填入。此时路由为 [`/gov/maoming/www/zwgk/zcjd/jd/`](https://rsshub.moeyy.cn/gov/maoming/www/zwgk/zcjd/jd/)
 
-若订阅 [茂名市农业农村局网站 > 政务区 > 政务公开 > 通知公告](http://mmny.maoming.gov.cn/zwq/zwgk/tzgg/) 则将对应页面 URL <http://mmny.maoming.gov.cn/zwq/zwgk/tzgg/> 中 `http://mmny.maoming.gov.cn/` 的字段 `mmny` 和 `/zwq/zwgk/tzgg/` 作为路径填入。此时路由为 [`/gov/maoming/mmny/zwq/zwgk/tzgg/`](https://rsshub.app/gov/maoming/mmny/zwq/zwgk/tzgg/)
+若订阅 [茂名市农业农村局网站 > 政务区 > 政务公开 > 通知公告](http://mmny.maoming.gov.cn/zwq/zwgk/tzgg/) 则将对应页面 URL <http://mmny.maoming.gov.cn/zwq/zwgk/tzgg/> 中 `http://mmny.maoming.gov.cn/` 的字段 `mmny` 和 `/zwq/zwgk/tzgg/` 作为路径填入。此时路由为 [`/gov/maoming/mmny/zwq/zwgk/tzgg/`](https://rsshub.moeyy.cn/gov/maoming/mmny/zwq/zwgk/tzgg/)
 
 :::
 
@@ -787,7 +787,7 @@ Language
 
 路径处填写对应页面 URL 中最前面的部分和域名后的字段。下面是一个例子。
 
-若订阅 [政务公开 > 政策解读](http://www.dianbai.gov.cn/zwgk/zcjd/) 则将对应页面 URL <http://www.dianbai.gov.cn/zwgk/zcjd/> 中 `http://www.dianbai.gov.cn/` 的字段`www` 和 `zwgk/zcjd/` 作为路径填入。此时路由为 [`/gov/dianbai/www/zwgk/zcjd/`](https://rsshub.app/gov/dianbai/www/zwgk/zcjd/)
+若订阅 [政务公开 > 政策解读](http://www.dianbai.gov.cn/zwgk/zcjd/) 则将对应页面 URL <http://www.dianbai.gov.cn/zwgk/zcjd/> 中 `http://www.dianbai.gov.cn/` 的字段`www` 和 `zwgk/zcjd/` 作为路径填入。此时路由为 [`/gov/dianbai/www/zwgk/zcjd/`](https://rsshub.moeyy.cn/gov/dianbai/www/zwgk/zcjd/)
 
 :::
 
@@ -801,7 +801,7 @@ Language
 
 路径处填写对应页面 URL 中最前面的部分和域名后的字段。下面是一个例子。
 
-若订阅 [政务公开 > 政策解读](http://www.xinyi.gov.cn/zwgk/zcjd/) 则将对应页面 URL <http://www.xinyi.gov.cn/zwgk/zcjd/> 中 `http://www.xinyi.gov.cn/` 的字段 `www` 和 `zwgk/zcjd/` 作为路径填入。此时路由为 [`/gov/xinyi/www/zwgk/zcjd/`](https://rsshub.app/gov/xinyi/www/zwgk/zcjd/)
+若订阅 [政务公开 > 政策解读](http://www.xinyi.gov.cn/zwgk/zcjd/) 则将对应页面 URL <http://www.xinyi.gov.cn/zwgk/zcjd/> 中 `http://www.xinyi.gov.cn/` 的字段 `www` 和 `zwgk/zcjd/` 作为路径填入。此时路由为 [`/gov/xinyi/www/zwgk/zcjd/`](https://rsshub.moeyy.cn/gov/xinyi/www/zwgk/zcjd/)
 
 :::
 
@@ -815,7 +815,7 @@ Language
 
 路径处填写对应页面 URL 中最前面的部分和域名后的字段。下面是一个例子。
 
-若订阅 [政策解读](http://www.gaozhou.gov.cn/zcjd/) 则将对应页面 URL <http://www.gaozhou.gov.cn/zcjd/> 中 `http://www.gaozhou.gov.cn/` 的字段 `www` 和 `zcjd/` 作为路径填入。此时路由为 [`/gov/gaozhou/www/zcjd/`](https://rsshub.app/gov/gaozhou/www/zcjd/)
+若订阅 [政策解读](http://www.gaozhou.gov.cn/zcjd/) 则将对应页面 URL <http://www.gaozhou.gov.cn/zcjd/> 中 `http://www.gaozhou.gov.cn/` 的字段 `www` 和 `zcjd/` 作为路径填入。此时路由为 [`/gov/gaozhou/www/zcjd/`](https://rsshub.moeyy.cn/gov/gaozhou/www/zcjd/)
 
 :::
 
@@ -829,7 +829,7 @@ Language
 
 路径处填写对应页面 URL 中最前面的部分和域名后的字段。下面是一个例子。
 
-若订阅 [政策解读](http://www.huazhou.gov.cn/syzl/zcjd/) 则将对应页面 URL <http://www.huazhou.gov.cn/syzl/zcjd/> 中 `http://www.huazhou.gov.cn/` 的字段 `www` `syzl/zcjd/` 作为路径填入。此时路由为 [`/gov/huazhou/www/syzl/zcjd/`](https://rsshub.app/gov/huazhou/www/syzl/zcjd/)
+若订阅 [政策解读](http://www.huazhou.gov.cn/syzl/zcjd/) 则将对应页面 URL <http://www.huazhou.gov.cn/syzl/zcjd/> 中 `http://www.huazhou.gov.cn/` 的字段 `www` `syzl/zcjd/` 作为路径填入。此时路由为 [`/gov/huazhou/www/syzl/zcjd/`](https://rsshub.moeyy.cn/gov/huazhou/www/syzl/zcjd/)
 
 :::
 
@@ -843,7 +843,7 @@ Language
 
 路径处填写对应页面 URL 中最前面的部分和域名后的字段。下面是一个例子。
 
-若订阅 [政务公开 > 政策解读](http://www.mgs.gov.cn/zwgk/zcjd/) 则将对应页面 URL <http://www.mgs.gov.cn/zwgk/zcjd/> 中 `http://www.mgs.gov.cn/` 的字段 `www` 和 `zwgk/zcjd/` 作为路径填入。此时路由为 [`/gov/mgs/www/zwgk/zcjd/`](https://rsshub.app/gov/mgs/www/zwgk/zcjd/)
+若订阅 [政务公开 > 政策解读](http://www.mgs.gov.cn/zwgk/zcjd/) 则将对应页面 URL <http://www.mgs.gov.cn/zwgk/zcjd/> 中 `http://www.mgs.gov.cn/` 的字段 `www` 和 `zwgk/zcjd/` 作为路径填入。此时路由为 [`/gov/mgs/www/zwgk/zcjd/`](https://rsshub.moeyy.cn/gov/mgs/www/zwgk/zcjd/)
 
 :::
 
@@ -857,7 +857,7 @@ Language
 
 路径处填写对应页面 URL 中最前面的部分和域名后的字段。下面是一个例子。
 
-若订阅 [政务公开 > 政策解读](http://www.mmht.gov.cn/xwzx/zcjd/) 则将对应页面 URL <http://www.mmht.gov.cn/xwzx/zcjd/> 中 `http://www.mmht.gov.cn/` 的字段 `www` 和   `xwzx/zcjd/` 作为路径填入。此时路由为 [`/gov/mmht/www/xwzx/zcjd/`](https://rsshub.app/gov/mmht/www/xwzx/zcjd/)
+若订阅 [政务公开 > 政策解读](http://www.mmht.gov.cn/xwzx/zcjd/) 则将对应页面 URL <http://www.mmht.gov.cn/xwzx/zcjd/> 中 `http://www.mmht.gov.cn/` 的字段 `www` 和   `xwzx/zcjd/` 作为路径填入。此时路由为 [`/gov/mmht/www/xwzx/zcjd/`](https://rsshub.moeyy.cn/gov/mmht/www/xwzx/zcjd/)
 
 :::
 
@@ -871,7 +871,7 @@ Language
 
 路径处填写对应页面 URL 中最前面的部分和域名后的字段。下面是一个例子。
 
-若订阅 [政务公开 > 政策解读](http://www.sdb.gov.cn/zwgk/zcjd/) 则将对应页面 URL <http://www.sdb.gov.cn/zwgk/zcjd/> 中 `http://www.sdb.gov.cn/` 的字段 `www` 和   `zwgk/zcjd/` 作为路径填入。此时路由为 [`/gov/sdb/www/zwgk/zcjd/`](https://rsshub.app/gov/sdb/www/zwgk/zcjd/)
+若订阅 [政务公开 > 政策解读](http://www.sdb.gov.cn/zwgk/zcjd/) 则将对应页面 URL <http://www.sdb.gov.cn/zwgk/zcjd/> 中 `http://www.sdb.gov.cn/` 的字段 `www` 和   `zwgk/zcjd/` 作为路径填入。此时路由为 [`/gov/sdb/www/zwgk/zcjd/`](https://rsshub.moeyy.cn/gov/sdb/www/zwgk/zcjd/)
 
 :::
 
@@ -905,7 +905,7 @@ Language
 
 路径处填写对应页面 URL 中 `http://www.nopss.gov.cn/` 后的字段。下面是一个例子。
 
-若订阅 [年度项目、青年项目和西部项目](http://www.nopss.gov.cn/GB/219469/431027) 则将对应页面 URL <http://www.nopss.gov.cn/GB/219469/431027> 中 `http://www.nopss.gov.cn/` 后的字段 `GB/219469/431027` 作为路径填入。此时路由为 [`/gov/nopss/GB/219469/431027`](https://rsshub.app/gov/nopss/GB/219469/431027)
+若订阅 [年度项目、青年项目和西部项目](http://www.nopss.gov.cn/GB/219469/431027) 则将对应页面 URL <http://www.nopss.gov.cn/GB/219469/431027> 中 `http://www.nopss.gov.cn/` 后的字段 `GB/219469/431027` 作为路径填入。此时路由为 [`/gov/nopss/GB/219469/431027`](https://rsshub.moeyy.cn/gov/nopss/GB/219469/431027)
 
 :::
 
@@ -965,7 +965,7 @@ Language
 
 路径处填写对应页面 URL 中 `https://yjj.sh.gov.cn/` 与 `/index.html` 之间的字段，下面是一个例子。
 
-若订阅 [最新信息公开 > 综合](https://yjj.sh.gov.cn/zh/index.html) 则将对应页面 URL <https://yjj.sh.gov.cn/zh/index.html> 中 `https://yjj.sh.gov.cn/` 和 `/index.html` 之间的字段 `zh` 作为路径填入。此时路由为 [`/gov/shanghai/yjj/zh`](https://rsshub.app/gov/shanghai/yjj/zh)
+若订阅 [最新信息公开 > 综合](https://yjj.sh.gov.cn/zh/index.html) 则将对应页面 URL <https://yjj.sh.gov.cn/zh/index.html> 中 `https://yjj.sh.gov.cn/` 和 `/index.html` 之间的字段 `zh` 作为路径填入。此时路由为 [`/gov/shanghai/yjj/zh`](https://rsshub.moeyy.cn/gov/shanghai/yjj/zh)
 
 :::
 
@@ -1178,7 +1178,7 @@ Language
 
 路径处填写对应页面 URL 中 `http://www.cnnic.net.cn/` 后的字段。下面是一个例子。
 
-若订阅 [热点信息](http://www.cnnic.net.cn/gywm/xwzx/rdxw) 则将对应页面 URL <http://www.cnnic.net.cn/gywm/xwzx/rdxw> 中 `http://www.cnnic.net.cn/` 后的字段 `gywm/xwzx/rdxw` 作为路径填入。此时路由为 [`/gov/cnnic/gywm/xwzx/rdxw`](https://rsshub.app/gov/cnnic/gywm/xwzx/rdxw)
+若订阅 [热点信息](http://www.cnnic.net.cn/gywm/xwzx/rdxw) 则将对应页面 URL <http://www.cnnic.net.cn/gywm/xwzx/rdxw> 中 `http://www.cnnic.net.cn/` 后的字段 `gywm/xwzx/rdxw` 作为路径填入。此时路由为 [`/gov/cnnic/gywm/xwzx/rdxw`](https://rsshub.moeyy.cn/gov/cnnic/gywm/xwzx/rdxw)
 
 :::
 
@@ -1192,9 +1192,9 @@ Language
 
 :::tip
 
-若订阅 [文职人员 - 工作动态](https://81rc.81.cn/wzry/gzdt)，网址为 <https://81rc.81.cn/wzry/gzdt>。截取 `https://81rc.81.cn` 到末尾的部分 `/wzry/gzdt` 作为参数，此时路由为 [`/81/81rc/wzry/gzdt`](https://rsshub.app/81/81rc/wzry/gzdt)。
+若订阅 [文职人员 - 工作动态](https://81rc.81.cn/wzry/gzdt)，网址为 <https://81rc.81.cn/wzry/gzdt>。截取 `https://81rc.81.cn` 到末尾的部分 `/wzry/gzdt` 作为参数，此时路由为 [`/81/81rc/wzry/gzdt`](https://rsshub.moeyy.cn/81/81rc/wzry/gzdt)。
 
-若订阅子分类 [文职人员 - 各部门各单位招考动态](https://81rc.81.cn/wzry/jwjgbmhddwzkdt)，网址为 <https://81rc.81.cn/wzry/jwjgbmhddwzkdt>。截取 `https://81rc.81.cn` 到末尾的部分 `/wzry/jwjgbmhddwzkdt` 作为参数，此时路由为 [`/81/81rc/wzry/jwjgbmhddwzkdt`](https://rsshub.app/81/81rc/wzry/jwjgbmhddwzkdt)。
+若订阅子分类 [文职人员 - 各部门各单位招考动态](https://81rc.81.cn/wzry/jwjgbmhddwzkdt)，网址为 <https://81rc.81.cn/wzry/jwjgbmhddwzkdt>。截取 `https://81rc.81.cn` 到末尾的部分 `/wzry/jwjgbmhddwzkdt` 作为参数，此时路由为 [`/81/81rc/wzry/jwjgbmhddwzkdt`](https://rsshub.moeyy.cn/81/81rc/wzry/jwjgbmhddwzkdt)。
 
 :::
 
@@ -1358,7 +1358,7 @@ Language
 
 路径处填写对应页面 URL 中 `http://www.csrc.gov.cn/csrc/` 后的字段。下面是一个例子。
 
-若订阅 [证监会要闻](http://www.csrc.gov.cn/csrc/c100028/common_xq_list.shtml) 则将对应页面 URL <http://www.csrc.gov.cn/csrc/c100028/common_xq_list.shtml> 中 `http://www.csrc.gov.cn/csrc/` 后的字段 `c100028/common_xq_list.shtml` 作为路径填入。此时路由为 [`/gov/csrc/news/c100028/common_xq_list.shtml`](https://rsshub.app/gov/csrc/news/c100028/common_xq_list.shtml)
+若订阅 [证监会要闻](http://www.csrc.gov.cn/csrc/c100028/common_xq_list.shtml) 则将对应页面 URL <http://www.csrc.gov.cn/csrc/c100028/common_xq_list.shtml> 中 `http://www.csrc.gov.cn/csrc/` 后的字段 `c100028/common_xq_list.shtml` 作为路径填入。此时路由为 [`/gov/csrc/news/c100028/common_xq_list.shtml`](https://rsshub.moeyy.cn/gov/csrc/news/c100028/common_xq_list.shtml)
 
 :::
 
@@ -1717,7 +1717,7 @@ Language
 
 路径处填写对应页面 URL 中 `http://www.ccdi.gov.cn/` 后的字段。下面是一个例子。
 
-若订阅 [审查调查 > 中管干部 > 执纪审查](https://www.ccdi.gov.cn/scdcn/zggb/zjsc/) 则将对应页面 URL <https://www.ccdi.gov.cn/scdcn/zggb/zjsc/> 中 `http://www.ccdi.gov.cn/` 后的字段 `scdcn/zggb/zjsc` 作为路径填入。此时路由为 [`/gov/ccdi/scdcn/zggb/zjsc`](https://rsshub.app/gov/ccdi/scdcn/zggb/zjsc)
+若订阅 [审查调查 > 中管干部 > 执纪审查](https://www.ccdi.gov.cn/scdcn/zggb/zjsc/) 则将对应页面 URL <https://www.ccdi.gov.cn/scdcn/zggb/zjsc/> 中 `http://www.ccdi.gov.cn/` 后的字段 `scdcn/zggb/zjsc` 作为路径填入。此时路由为 [`/gov/ccdi/scdcn/zggb/zjsc`](https://rsshub.moeyy.cn/gov/ccdi/scdcn/zggb/zjsc)
 
 :::
 

@@ -146,16 +146,16 @@ const config = {
                         position: 'left',
                         activeBaseRegex: '^/joinus/',
                     },
-                    {
-                        to: '/install',
-                        position: 'left',
-                        label: 'Deploy',
-                    },
-                    {
-                        to: '/support',
-                        position: 'left',
-                        label: 'Support RSSHub',
-                    },
+                    // {
+                    //     to: '/install',
+                    //     position: 'left',
+                    //     label: 'Deploy',
+                    // },
+                    // {
+                    //     to: '/support',
+                    //     position: 'left',
+                    //     label: 'Support RSSHub',
+                    // },
                     {
                         type: 'search',
                         position: 'right',

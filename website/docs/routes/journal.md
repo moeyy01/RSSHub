@@ -135,8 +135,8 @@ Fill in parameter `query` with content after `http://export.arxiv.org/api/query?
 
 | `:category` |       Query Type        | Route                                                      |
 | :---------: | :---------------------: | ---------------------------------------------------------- |
-|   current   | Current Issue (default) | [/cell/cell/current](https://rsshub.app/cell/cell/current) |
-|   inpress   |    Articles in press    | [/cell/cell/inpress](https://rsshub.app/cell/cell/inpress) |
+|   current   | Current Issue (default) | [/cell/cell/current](https://rsshub.moeyy.cn/cell/cell/current) |
+|   inpress   |    Articles in press    | [/cell/cell/inpress](https://rsshub.moeyy.cn/cell/cell/inpress) |
 
 </Route>
 
@@ -188,9 +188,9 @@ Google Scholar has strict anti-crawling mechanism implemented, the demo below do
 
 :::
 
-1.  Basic mode, sample query is the keywords desired, eg.「data visualization」, [https://rsshub.app/google/scholar/data+visualization](https://rsshub.app/google/scholar/data+visualization).
+1.  Basic mode, sample query is the keywords desired, eg.「data visualization」, [https://rsshub.moeyy.cn/google/scholar/data+visualization](https://rsshub.moeyy.cn/google/scholar/data+visualization).
 
-2.  Advanced mode, visit [Google Scholar](https://scholar.google.com/schhp?hl=en&as_sdt=0,5), click the top left corner and select「Advanced Search」, fill in your conditions and submit the search. The URL should look like this: [https://scholar.google.com/scholar?as_q=data+visualization&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=&as_publication=&as_ylo=2018&as_yhi=&hl=en&as_sdt=0%2C5](https://scholar.google.com/scholar?as_q=data+visualization&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=&as_publication=&as_ylo=2018&as_yhi=&hl=en&as_sdt=0%2C5), copy everything after `https://scholar.google.com/scholar?` from the URL and use it as the query for this route. The complete URL for the above example should look like this: [https://rsshub.app/google/scholar/as_q=data+visualization&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=&as_publication=&as_ylo=2018&as_yhi=&hl=en&as_sdt=0%2C5](https://rsshub.app/google/scholar/as_q=data+visualization&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=&as_publication=&as_ylo=2018&as_yhi=&hl=en&as_sdt=0%2C5).
+2.  Advanced mode, visit [Google Scholar](https://scholar.google.com/schhp?hl=en&as_sdt=0,5), click the top left corner and select「Advanced Search」, fill in your conditions and submit the search. The URL should look like this: [https://scholar.google.com/scholar?as_q=data+visualization&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=&as_publication=&as_ylo=2018&as_yhi=&hl=en&as_sdt=0%2C5](https://scholar.google.com/scholar?as_q=data+visualization&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=&as_publication=&as_ylo=2018&as_yhi=&hl=en&as_sdt=0%2C5), copy everything after `https://scholar.google.com/scholar?` from the URL and use it as the query for this route. The complete URL for the above example should look like this: [https://rsshub.moeyy.cn/google/scholar/as_q=data+visualization&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=&as_publication=&as_ylo=2018&as_yhi=&hl=en&as_sdt=0%2C5](https://rsshub.moeyy.cn/google/scholar/as_q=data+visualization&as_epq=&as_oq=&as_eq=&as_occt=any&as_sauthors=&as_publication=&as_ylo=2018&as_yhi=&hl=en&as_sdt=0%2C5).
 
 </Route>
 
@@ -298,15 +298,15 @@ You can get all short name of a journal from <https://www.nature.com/siteindex> 
 
 |  `:journal`   |  Full Name of the Journal   | Route                                                                              |
 | :-----------: | :-------------------------: | ---------------------------------------------------------------------------------- |
-|    nature     |           Nature            | [/nature/research/nature](https://rsshub.app/nature/research/nature)               |
-|      nbt      |    Nature Biotechnology     | [/nature/research/nbt](https://rsshub.app/nature/research/nbt)                     |
-|     neuro     |     Nature Neuroscience     | [/nature/research/neuro](https://rsshub.app/nature/research/neuro)                 |
-|      ng       |       Nature Genetics       | [/nature/research/ng](https://rsshub.app/nature/research/ng)                       |
-|      ni       |      Nature Immunology      | [/nature/research/ni](https://rsshub.app/nature/research/ni)                       |
-|     nmeth     |        Nature Method        | [/nature/research/nmeth](https://rsshub.app/nature/research/nmeth)                 |
-|     nchem     |      Nature Chemistry       | [/nature/research/nchem](https://rsshub.app/nature/research/nchem)                 |
-|     nmat      |      Nature Materials       | [/nature/research/nmat](https://rsshub.app/nature/research/nmat)                   |
-| natmachintell | Nature Machine Intelligence | [/nature/research/natmachintell](https://rsshub.app/nature/research/natmachintell) |
+|    nature     |           Nature            | [/nature/research/nature](https://rsshub.moeyy.cn/nature/research/nature)               |
+|      nbt      |    Nature Biotechnology     | [/nature/research/nbt](https://rsshub.moeyy.cn/nature/research/nbt)                     |
+|     neuro     |     Nature Neuroscience     | [/nature/research/neuro](https://rsshub.moeyy.cn/nature/research/neuro)                 |
+|      ng       |       Nature Genetics       | [/nature/research/ng](https://rsshub.moeyy.cn/nature/research/ng)                       |
+|      ni       |      Nature Immunology      | [/nature/research/ni](https://rsshub.moeyy.cn/nature/research/ni)                       |
+|     nmeth     |        Nature Method        | [/nature/research/nmeth](https://rsshub.moeyy.cn/nature/research/nmeth)                 |
+|     nchem     |      Nature Chemistry       | [/nature/research/nchem](https://rsshub.moeyy.cn/nature/research/nchem)                 |
+|     nmat      |      Nature Materials       | [/nature/research/nmat](https://rsshub.moeyy.cn/nature/research/nmat)                   |
+| natmachintell | Nature Machine Intelligence | [/nature/research/natmachintell](https://rsshub.moeyy.cn/nature/research/natmachintell) |
 
 -   Using router (`/nature/research/` + "short name for a journal") to query latest research paper for a certain journal of Nature Publishing Group.
     If the `:journal` parameter is blank, then latest research of Nature will return.
@@ -321,14 +321,14 @@ You can get all short name of a journal from <https://www.nature.com/siteindex> 
 
 |  `:journal`   |  Full Name of the Journal   | Route                                                                                                                 |
 | :-----------: | :-------------------------: | --------------------------------------------------------------------------------------------------------------------- |
-|      nbt      |    Nature Biotechnology     | [/nature/news-and-comment/nbt](https://rsshub.app/nature/news-and-comment/nbt)                                        |
-|     neuro     |     Nature Neuroscience     | [/nature/news-and-comment/neuro](https://rsshub.app/nature/news-and-comment/neuro)                                    |
-|      ng       |       Nature Genetics       | [/nature/news-and-comment/ng](https://rsshub.app/nature/news-and-comment/ng)                                          |
-|      ni       |      Nature Immunology      | [/nature/news-and-comment/ni](https://rsshub.app/nature/news-and-comment/ni)                                          |
-|     nmeth     |        Nature Method        | [/nature/news-and-comment/nmeth](https://rsshub.app/nature/news-and-comment/nmeth)                                    |
-|     nchem     |      Nature Chemistry       | [/nature/news-and-comment/nchem](https://rsshub.app/nature/news-and-comment/nchem)                                    |
-|     nmat      |      Nature Materials       | [/nature/news-and-comment/nmat](https://rsshub.app/nature/news-and-comment/nmat)                                      |
-| natmachintell | Nature Machine Intelligence | [/nature/news-and-https://rsshub.app/comment/natmachintell](https://rsshub.app/nature/news-and-comment/natmachintell) |
+|      nbt      |    Nature Biotechnology     | [/nature/news-and-comment/nbt](https://rsshub.moeyy.cn/nature/news-and-comment/nbt)                                        |
+|     neuro     |     Nature Neuroscience     | [/nature/news-and-comment/neuro](https://rsshub.moeyy.cn/nature/news-and-comment/neuro)                                    |
+|      ng       |       Nature Genetics       | [/nature/news-and-comment/ng](https://rsshub.moeyy.cn/nature/news-and-comment/ng)                                          |
+|      ni       |      Nature Immunology      | [/nature/news-and-comment/ni](https://rsshub.moeyy.cn/nature/news-and-comment/ni)                                          |
+|     nmeth     |        Nature Method        | [/nature/news-and-comment/nmeth](https://rsshub.moeyy.cn/nature/news-and-comment/nmeth)                                    |
+|     nchem     |      Nature Chemistry       | [/nature/news-and-comment/nchem](https://rsshub.moeyy.cn/nature/news-and-comment/nchem)                                    |
+|     nmat      |      Nature Materials       | [/nature/news-and-comment/nmat](https://rsshub.moeyy.cn/nature/news-and-comment/nmat)                                      |
+| natmachintell | Nature Machine Intelligence | [/nature/news-and-https://rsshub.moeyy.cn/comment/natmachintell](https://rsshub.moeyy.cn/nature/news-and-comment/natmachintell) |
 
 -   Using router (`/nature/research/` + "short name for a journal") to query latest research paper for a certain journal of Nature Publishing Group.
 -   The journals from NPG are run by different group of people, and the website of may not be consitent for all the journals
@@ -389,7 +389,7 @@ Return results from 2020
 
 :::tip
 
-Some topics require adding `topic/` to `topicPath` like [`/pnas/topic/app-math`](https://rsshub.app/pnas/topic/app-math) and some don't like [`/pnas/biophysics-and-computational-biology`](https://rsshub.app/pnas/biophysics-and-computational-biology)
+Some topics require adding `topic/` to `topicPath` like [`/pnas/topic/app-math`](https://rsshub.moeyy.cn/pnas/topic/app-math) and some don't like [`/pnas/biophysics-and-computational-biology`](https://rsshub.moeyy.cn/pnas/biophysics-and-computational-biology)
 
 :::
 
@@ -405,7 +405,7 @@ Some topics require adding `topic/` to `topicPath` like [`/pnas/topic/app-math`]
 
 For the parameter **filter**, the `filter` parameter in the URL should be split into a string by `,`, here is an example.
 
-In <https://pubmed.ncbi.nlm.nih.gov/trending/?filter=simsearch1.fha&filter=pubt.clinicaltrial&filter=pubt.randomizedcontrolledtrial>, the filter parameters are `simsearch1.fha`, `pubt.clinicaltrial`, and `pubt.randomizedcontrolledtrial`. Therefore, the filter corresponding to the route should be filled with `simsearch1.fha,pubt.clinicaltrial,pubt.randomizedcontrolledtrial`, and the route is [`/pubmed/trending/simsearch1.fha,pubt .clinicaltrial,pubt.randomizedcontrolledtrial`](https://rsshub.app/pubmed/trending/simsearch1.fha,pubt.clinicaltrial,pubt.randomizedcontrolledtrial)
+In <https://pubmed.ncbi.nlm.nih.gov/trending/?filter=simsearch1.fha&filter=pubt.clinicaltrial&filter=pubt.randomizedcontrolledtrial>, the filter parameters are `simsearch1.fha`, `pubt.clinicaltrial`, and `pubt.randomizedcontrolledtrial`. Therefore, the filter corresponding to the route should be filled with `simsearch1.fha,pubt.clinicaltrial,pubt.randomizedcontrolledtrial`, and the route is [`/pubmed/trending/simsearch1.fha,pubt .clinicaltrial,pubt.randomizedcontrolledtrial`](https://rsshub.moeyy.cn/pubmed/trending/simsearch1.fha,pubt.clinicaltrial,pubt.randomizedcontrolledtrial)
 
 :::
 
@@ -419,12 +419,12 @@ In <https://pubmed.ncbi.nlm.nih.gov/trending/?filter=simsearch1.fha&filter=pubt.
 
 | Short name |    Full name of the journal    | Route                                                                              |
 | :--------: | :----------------------------: | ---------------------------------------------------------------------------------- |
-|   science   |             Science            | [/science/current/science](https://rsshub.app/science/current/science)         |
-|    sciadv   |        Science Advances        | [/science/current/sciadv](https://rsshub.app/science/current/sciadv)           |
-|  sciimmunol |       Science Immunology       | [/science/current/sciimmunol](https://rsshub.app/science/current/sciimmunol)   |
-| scirobotics |        Science Robotics        | [/science/current/scirobotics](https://rsshub.app/science/current/scirobotics) |
-|  signaling  |        Science Signaling       | [/science/current/signaling](https://rsshub.app/science/current/signaling)     |
-|     stm     | Science Translational Medicine | [/science/current/stm](https://rsshub.app/science/current/stm)                 |
+|   science   |             Science            | [/science/current/science](https://rsshub.moeyy.cn/science/current/science)         |
+|    sciadv   |        Science Advances        | [/science/current/sciadv](https://rsshub.moeyy.cn/science/current/sciadv)           |
+|  sciimmunol |       Science Immunology       | [/science/current/sciimmunol](https://rsshub.moeyy.cn/science/current/sciimmunol)   |
+| scirobotics |        Science Robotics        | [/science/current/scirobotics](https://rsshub.moeyy.cn/science/current/scirobotics) |
+|  signaling  |        Science Signaling       | [/science/current/signaling](https://rsshub.moeyy.cn/science/current/signaling)     |
+|     stm     | Science Translational Medicine | [/science/current/stm](https://rsshub.moeyy.cn/science/current/stm)                 |
 
 -   Using route (`/science/current/` + "short name for a journal") to get current issue of a journal from AAAS.
 -   Leaving it empty (`/science/current`) to get update from Science.

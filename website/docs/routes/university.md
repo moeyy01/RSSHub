@@ -329,7 +329,7 @@ Note：[Source website](https://ece.umass.edu/seminar) may be empty when there's
 
 分类字段处填写的是对应北京大学人事处分类页网址中介于 **<http://hr.pku.edu.cn/>** 和 **/index.htm** 中间的一段，并将其中的 `/` 修改为 `-`。
 
-如 [北京大学人事处 - 人才招聘 - 教师 - 教学科研人员](https://hr.pku.edu.cn/rczp/js/jxkyry/index.htm) 的网址为 <https://hr.pku.edu.cn/rczp/js/jxkyry/index.htm> 其中介于 **<http://hr.pku.edu.cn/>** 和 **/index.htm** 中间的一段为 `rczp/js/jxkyry`。随后，并将其中的 `/` 修改为 `-`，可以得到 `rczp-js-jxkyry`。所以最终我们的路由为 [`/pku/hr/rczp-js-jxkyry`](https://rsshub.app/pku/hr/rczp-js-jxkyry)
+如 [北京大学人事处 - 人才招聘 - 教师 - 教学科研人员](https://hr.pku.edu.cn/rczp/js/jxkyry/index.htm) 的网址为 <https://hr.pku.edu.cn/rczp/js/jxkyry/index.htm> 其中介于 **<http://hr.pku.edu.cn/>** 和 **/index.htm** 中间的一段为 `rczp/js/jxkyry`。随后，并将其中的 `/` 修改为 `-`，可以得到 `rczp-js-jxkyry`。所以最终我们的路由为 [`/pku/hr/rczp-js-jxkyry`](https://rsshub.moeyy.cn/pku/hr/rczp-js-jxkyry)
 
 :::
 
@@ -491,7 +491,7 @@ Note：[Source website](https://ece.umass.edu/seminar) may be empty when there's
 
 路径处填写对应页面 URL 中 `https://fdy.bnu.edu.cn/` 和 `/index.htm` 之间的字段。下面是一个例子。
 
-若订阅 [通知公告 > 队伍建设](https://fdy.bnu.edu.cn/tzgg/dwjs/index.htm) 则将对应页面 URL <https://fdy.bnu.edu.cn/tzgg/dwjs/index.htm> 中 `https://fdy.bnu.edu.cn/` 和 `/index.htm` 之间的字段 `tzgg/dwjs` 作为路径填入。此时路由为 [`/bnu/fdy/tzgg/dwjs`](https://rsshub.app/bnu/fdy/tzgg/dwjs)
+若订阅 [通知公告 > 队伍建设](https://fdy.bnu.edu.cn/tzgg/dwjs/index.htm) 则将对应页面 URL <https://fdy.bnu.edu.cn/tzgg/dwjs/index.htm> 中 `https://fdy.bnu.edu.cn/` 和 `/index.htm` 之间的字段 `tzgg/dwjs` 作为路径填入。此时路由为 [`/bnu/fdy/tzgg/dwjs`](https://rsshub.moeyy.cn/bnu/fdy/tzgg/dwjs)
 
 :::
 
@@ -785,13 +785,13 @@ Note：[Source website](https://ece.umass.edu/seminar) may be empty when there's
 
 1.  将 URL <https://news.dlut.edu.cn/ttgz.htm> 中 `https://` 与 `.dlut.edu.cn/` 中间的 `news` 作为 `site` 参数填入；
 2.  将 `https://news.dlut.edu.cn/` 与 `.htm` 间的 `ttgz` 作为 `category` 参数填入；
-3.  最终可获得 [`/dut/news/ttgz`](https://rsshub.app/dut/news/tzgg)。
+3.  最终可获得 [`/dut/news/ttgz`](https://rsshub.moeyy.cn/dut/news/tzgg)。
 
 订阅 **多级** 栏目如 [大连理工大学新闻网](https://news.dlut.edu.cn) 的 [人才培养](https://news.dlut.edu.cn/xwjj01/rcpy.htm) 分类栏目，同样分为 3 步：
 
 1.  将 URL <https://news.dlut.edu.cn/xwjj01/rcpy.htm> 中 `https://` 与 `.dlut.edu.cn/` 中间的 `news` 作为 `site` 参数填入；
 2.  把 `https://news.dlut.edu.cn/` 与 `.htm` 间 `xwjj01/rcpy` 作为 `category` 参数填入；
-3.  最终可获得 [`/dut/news/xwjj01/rcpy`](https://rsshub.app/dut/news/xwjj01/rcpy)。
+3.  最终可获得 [`/dut/news/xwjj01/rcpy`](https://rsshub.moeyy.cn/dut/news/xwjj01/rcpy)。
 
 :::tip 小提示
 
@@ -1133,9 +1133,9 @@ Note：[Source website](https://ece.umass.edu/seminar) may be empty when there's
 
 :::tip
 
-若订阅 [通知公告](https://sohac.nenu.edu.cn/index/tzgg.htm)，网址为 <https://sohac.nenu.edu.cn/index/tzgg.htm>。截取 `https://sohac.nenu.edu.cn/` 到末尾 `.htm` 的部分 `index/tzgg` 作为参数，此时路由为 [`/nenu/sohac/index/tzgg`](https://rsshub.app/nenu/sohac/index/tzgg)。
+若订阅 [通知公告](https://sohac.nenu.edu.cn/index/tzgg.htm)，网址为 <https://sohac.nenu.edu.cn/index/tzgg.htm>。截取 `https://sohac.nenu.edu.cn/` 到末尾 `.htm` 的部分 `index/tzgg` 作为参数，此时路由为 [`/nenu/sohac/index/tzgg`](https://rsshub.moeyy.cn/nenu/sohac/index/tzgg)。
 
-若订阅 [学院信息](https://sohac.nenu.edu.cn/index/xyxx.htm)，网址为 <https://sohac.nenu.edu.cn/index/xyxx.htm>。截取 `https://sohac.nenu.edu.cn/` 到末尾 `.htm` 的部分 `index/xyxx` 作为参数，此时路由为 [`/nenu/sohac/index/xyxx`](https://rsshub.app/nenu/sohac/index/xyxx)。
+若订阅 [学院信息](https://sohac.nenu.edu.cn/index/xyxx.htm)，网址为 <https://sohac.nenu.edu.cn/index/xyxx.htm>。截取 `https://sohac.nenu.edu.cn/` 到末尾 `.htm` 的部分 `index/xyxx` 作为参数，此时路由为 [`/nenu/sohac/index/xyxx`](https://rsshub.moeyy.cn/nenu/sohac/index/xyxx)。
 
 :::
 
@@ -1147,9 +1147,9 @@ Note：[Source website](https://ece.umass.edu/seminar) may be empty when there's
 
 :::tip
 
-若订阅 [通知公告](https://yjsy.nenu.edu.cn/tzgg.htm)，网址为 <https://yjsy.nenu.edu.cn/tzgg.htm>。截取 `https://yjsy.nenu.edu.cn/` 到末尾 `.htm` 的部分 `tzgg` 作为参数，此时路由为 [`/nenu/yjsy/tzgg`](https://rsshub.app/nenu/yjsy/tzgg)。
+若订阅 [通知公告](https://yjsy.nenu.edu.cn/tzgg.htm)，网址为 <https://yjsy.nenu.edu.cn/tzgg.htm>。截取 `https://yjsy.nenu.edu.cn/` 到末尾 `.htm` 的部分 `tzgg` 作为参数，此时路由为 [`/nenu/yjsy/tzgg`](https://rsshub.moeyy.cn/nenu/yjsy/tzgg)。
 
-若订阅 [校内新闻](https://yjsy.nenu.edu.cn/xwdt/xnxw.htm)，网址为 <https://yjsy.nenu.edu.cn/xwdt/xnxw.htm>。截取 `https://yjsy.nenu.edu.cn/` 到末尾 `.htm` 的部分 `xwdt/xnxw` 作为参数，此时路由为 [`/nenu/yjsy/xwdt/xnxw`](https://rsshub.app/nenu/yjsy/xwdt/xnxw)。
+若订阅 [校内新闻](https://yjsy.nenu.edu.cn/xwdt/xnxw.htm)，网址为 <https://yjsy.nenu.edu.cn/xwdt/xnxw.htm>。截取 `https://yjsy.nenu.edu.cn/` 到末尾 `.htm` 的部分 `xwdt/xnxw` 作为参数，此时路由为 [`/nenu/yjsy/xwdt/xnxw`](https://rsshub.moeyy.cn/nenu/yjsy/xwdt/xnxw)。
 
 :::
 
@@ -1255,9 +1255,9 @@ Note：[Source website](https://ece.umass.edu/seminar) may be empty when there's
 
 :::tip
 
-如 [通知公告](http://hr.uibe.edu.cn/tzgg) 的 URL 为 <http://hr.uibe.edu.cn/tzgg>，其路由为 [`/uibe/hr/tzgg`](https://rsshub.app/uibe/hr/tzgg)
+如 [通知公告](http://hr.uibe.edu.cn/tzgg) 的 URL 为 <http://hr.uibe.edu.cn/tzgg>，其路由为 [`/uibe/hr/tzgg`](https://rsshub.moeyy.cn/uibe/hr/tzgg)
 
-如 [教师招聘](http://hr.uibe.edu.cn/jszp) 中的 [招聘信息](http://hr.uibe.edu.cn/jszp/zpxx) 的 URL 为 <http://hr.uibe.edu.cn/jszp/zpxx>，其路由为 [`/uibe/hr/jszp/zpxx`](https://rsshub.app/uibe/jszp/zpxx)
+如 [教师招聘](http://hr.uibe.edu.cn/jszp) 中的 [招聘信息](http://hr.uibe.edu.cn/jszp/zpxx) 的 URL 为 <http://hr.uibe.edu.cn/jszp/zpxx>，其路由为 [`/uibe/hr/jszp/zpxx`](https://rsshub.moeyy.cn/uibe/jszp/zpxx)
 
 :::
 
@@ -1500,7 +1500,7 @@ category 列表：
 :::tip
 
 今日哈工大的文章分为公告公示和新闻快讯，每个页面右侧列出了更详细的分类，其编号为每个 URL 路径的最后一个数字。
-例如会议讲座的路径为`/taxonomy/term/10/25`，则可以通过 [`/hit/today/25`](https://rsshub.app/hit/today/25) 订阅该详细类别。
+例如会议讲座的路径为`/taxonomy/term/10/25`，则可以通过 [`/hit/today/25`](https://rsshub.moeyy.cn/hit/today/25) 订阅该详细类别。
 
 :::
 
@@ -2351,7 +2351,7 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 将其替换到 RSS 路由地址中即可：
 
-[https://rsshub.app/**nuist**/`bulletin`](https://rsshub.app/nuist/bulletin) 或 [https://rsshub.app/**nuist**/`bulletin`/`791`](https://rsshub.app/nuist/bulletin)
+[https://rsshub.moeyy.cn/**nuist**/`bulletin`](https://rsshub.moeyy.cn/nuist/bulletin) 或 [https://rsshub.moeyy.cn/**nuist**/`bulletin`/`791`](https://rsshub.moeyy.cn/nuist/bulletin)
 
 :::
 
@@ -2403,7 +2403,7 @@ jsjxy.hbut.edu.cn 证书链不全，自建 RSSHub 可设置环境变量 NODE_TLS
 
 路径字段处填写的是对应南京信息工程大学研究生院学科建设处分类页网址中介于 **<https://yjs.nuist.edu.cn/>** 和 **.htm** 中间的一段。
 
-如 [南京信息工程大学研究生院学科建设处工作动态](https://yjs.nuist.edu.cn/index/gzdt.htm) 的网址为 <https://yjs.nuist.edu.cn/index/gzdt.htm> 其中介于 **<https://yjs.nuist.edu.cn/>** 和 **.htm** 中间的一段为 `index/gzdt`。可以得到路由为 [`/nuist/yjs/index/gzdt`](https://rsshub.app/nuist/yjs/index/gzdt)
+如 [南京信息工程大学研究生院学科建设处工作动态](https://yjs.nuist.edu.cn/index/gzdt.htm) 的网址为 <https://yjs.nuist.edu.cn/index/gzdt.htm> 其中介于 **<https://yjs.nuist.edu.cn/>** 和 **.htm** 中间的一段为 `index/gzdt`。可以得到路由为 [`/nuist/yjs/index/gzdt`](https://rsshub.moeyy.cn/nuist/yjs/index/gzdt)
 
 :::
 
@@ -3488,9 +3488,9 @@ paramsDesc={['公告类型，详见表格']}>
 
 :::tip
 
-若订阅 [院情总览 - 通知公告](https://dongke.yangtzeu.edu.cn/yqzl/tzgg.htm)，网址为 <https://dongke.yangtzeu.edu.cn/yqzl/tzgg.htm>。截取 `https://dongke.yangtzeu.edu.cn` 到末尾 `.htm` 的部分 `/yqzl/tzgg` 作为参数，此时路由为 [`/yangtzeu/dongke/yqzl/tzgg`](https://rsshub.app/yangtzeu/dongke/yqzl/tzgg)。
+若订阅 [院情总览 - 通知公告](https://dongke.yangtzeu.edu.cn/yqzl/tzgg.htm)，网址为 <https://dongke.yangtzeu.edu.cn/yqzl/tzgg.htm>。截取 `https://dongke.yangtzeu.edu.cn` 到末尾 `.htm` 的部分 `/yqzl/tzgg` 作为参数，此时路由为 [`/yangtzeu/dongke/yqzl/tzgg`](https://rsshub.moeyy.cn/yangtzeu/dongke/yqzl/tzgg)。
 
-若订阅子分类 [学生工作](https://dongke.yangtzeu.edu.cn/xsgz.htm)，网址为 <https://dongke.yangtzeu.edu.cn/xsgz.htm>。截取 `https://dongke.yangtzeu.edu.cn` 到末尾 `.htm` 的部分 `/xsgz` 作为参数，此时路由为 [`/yangtzeu/dongke/xsgz`](https://rsshub.app/yangtzeu/dongke/xsgz)。
+若订阅子分类 [学生工作](https://dongke.yangtzeu.edu.cn/xsgz.htm)，网址为 <https://dongke.yangtzeu.edu.cn/xsgz.htm>。截取 `https://dongke.yangtzeu.edu.cn` 到末尾 `.htm` 的部分 `/xsgz` 作为参数，此时路由为 [`/yangtzeu/dongke/xsgz`](https://rsshub.moeyy.cn/yangtzeu/dongke/xsgz)。
 
 :::
 
@@ -3887,7 +3887,7 @@ paramsDesc={['公告类型，详见表格']}>
 
 分类字段处填写的是对应中国人民大学人事处分类页网址中介于 **<http://hr.ruc.edu.cn/>** 和 **/index.htm** 中间的一段，并将其中的 `/` 修改为 `-`。
 
-如 [中国人民大学人事处 - 办事机构 - 教师事务办公室 - 教师通知公告](http://hr.ruc.edu.cn/bsjg/bsjsswbgs/jstzgg/index.htm) 的网址为 <http://hr.ruc.edu.cn/bsjg/bsjsswbgs/jstzgg/index.htm> 其中介于 **<http://hr.ruc.edu.cn/>** 和 **/index.htm** 中间的一段为 `bsjg/bsjsswbgs/jstzgg`。随后，并将其中的 `/` 修改为 `-`，可以得到 `bsjg-bsjsswbgs-jstzgg`。所以最终我们的路由为 [`/ruc/hr/bsjg-bsjsswbgs-jstzgg`](https://rsshub.app/ruc/hr/bsjg-bsjsswbgs-jstzgg)
+如 [中国人民大学人事处 - 办事机构 - 教师事务办公室 - 教师通知公告](http://hr.ruc.edu.cn/bsjg/bsjsswbgs/jstzgg/index.htm) 的网址为 <http://hr.ruc.edu.cn/bsjg/bsjsswbgs/jstzgg/index.htm> 其中介于 **<http://hr.ruc.edu.cn/>** 和 **/index.htm** 中间的一段为 `bsjg/bsjsswbgs/jstzgg`。随后，并将其中的 `/` 修改为 `-`，可以得到 `bsjg-bsjsswbgs-jstzgg`。所以最终我们的路由为 [`/ruc/hr/bsjg-bsjsswbgs-jstzgg`](https://rsshub.moeyy.cn/ruc/hr/bsjg-bsjsswbgs-jstzgg)
 
 :::
 

@@ -243,13 +243,13 @@ Eg:<https://ncode.syosetu.com/n1976ey/>
 
 #### 使用方法
 
-如订阅 [《大主宰》](http://www.biqu5200.net/0\_7/)，此时在 [biqu5200.net](http://www.biqu5200.net) 中查询得到对应小说详情页 URL 为 <http://www.biqu5200.net/0_7/>。此时，路由为 [`/biquge/http://www.biqu5200.net/0_7/`](https://rsshub.app/biquge/http://www.biqu5200.net/0\_7/)
+如订阅 [《大主宰》](http://www.biqu5200.net/0\_7/)，此时在 [biqu5200.net](http://www.biqu5200.net) 中查询得到对应小说详情页 URL 为 <http://www.biqu5200.net/0_7/>。此时，路由为 [`/biquge/http://www.biqu5200.net/0_7/`](https://rsshub.moeyy.cn/biquge/http://www.biqu5200.net/0\_7/)
 
-又如同样订阅 [《大主宰》](https://www.shuquge.com/txt/70/index.html)，此时在 [shuquge.com](https://www.shuquge.com) 中查询得到对应小说详情页 URL 为 <https://www.shuquge.com/txt/70/index.html>。此时，把末尾的 `index.html` 去掉，路由为 [`/biquge/https://www.shuquge.com/txt/70/`](https://rsshub.app/biquge/https://www.shuquge.com/txt/70/)
+又如同样订阅 [《大主宰》](https://www.shuquge.com/txt/70/index.html)，此时在 [shuquge.com](https://www.shuquge.com) 中查询得到对应小说详情页 URL 为 <https://www.shuquge.com/txt/70/index.html>。此时，把末尾的 `index.html` 去掉，路由为 [`/biquge/https://www.shuquge.com/txt/70/`](https://rsshub.moeyy.cn/biquge/https://www.shuquge.com/txt/70/)
 
 #### 关于章节数
 
-路由默认返回最新 **1** 个章节，如有需要一次性获取多个章节，可在路由后指定 `limit` 参数。如上面的例子：订阅 [《大主宰》](http://www.biqu5200.net/0\_7/) 并获取最新的 **10** 个章节。此时，路由为 [`/biquge/http://www.biqu5200.net/0_7/?limit=10`](https://rsshub.app/biquge/http://www.biqu5200.net/0\_7/?limit=10)
+路由默认返回最新 **1** 个章节，如有需要一次性获取多个章节，可在路由后指定 `limit` 参数。如上面的例子：订阅 [《大主宰》](http://www.biqu5200.net/0\_7/) 并获取最新的 **10** 个章节。此时，路由为 [`/biquge/http://www.biqu5200.net/0_7/?limit=10`](https://rsshub.moeyy.cn/biquge/http://www.biqu5200.net/0\_7/?limit=10)
 
 需要注意的是，单次获取的所有章节更新时间统一设定为最新章节的更新时间。也就是说，获取最新的 **10** 个章节时，除了最新 **1** 个章节的更新时间是准确的（和网站一致的），其他 **9** 个章节的更新时间是不准确的。
 
@@ -281,7 +281,7 @@ Eg:<https://ncode.syosetu.com/n1976ey/>
 
 全部期刊可以在 [这里](http://qk.chaoxing.com/space/index) 找到，你也可以从 [学科分类](https://qikan.chaoxing.com/jourclassify) 和 [期刊导航](https://qikan.chaoxing.com/search/openmag) 中发现更多期刊。
 
-如订阅 [**上海文艺**](http://m.chaoxing.com/mqk/list?sw=&mags=6b5c39b3dd84352be512e29df0297437&isort=20&from=space)，其 URL 为 <http://m.chaoxing.com/mqk/list?mags=6b5c39b3dd84352be512e29df0297437>。`6b5c39b3dd84352be512e29df0297437` 即为期刊 id，所得路由为 [`/chaoxing/qk/6b5c39b3dd84352be512e29df0297437`](https://rsshub.app/chaoxing/qk/6b5c39b3dd84352be512e29df0297437)
+如订阅 [**上海文艺**](http://m.chaoxing.com/mqk/list?sw=&mags=6b5c39b3dd84352be512e29df0297437&isort=20&from=space)，其 URL 为 <http://m.chaoxing.com/mqk/list?mags=6b5c39b3dd84352be512e29df0297437>。`6b5c39b3dd84352be512e29df0297437` 即为期刊 id，所得路由为 [`/chaoxing/qk/6b5c39b3dd84352be512e29df0297437`](https://rsshub.moeyy.cn/chaoxing/qk/6b5c39b3dd84352be512e29df0297437)
 
 :::
 
@@ -289,9 +289,9 @@ Eg:<https://ncode.syosetu.com/n1976ey/>
 
 你可以设置参数 **需要获取文章全文** 为 `true` `yes` `t` `y` 等值（或者忽略这个参数），RSS 的条目会携带期刊中的 **文章全文**，而不仅仅是 **文章概要**。但因为发起访问请求过多会被该网站屏蔽，你可以将其关闭（设置该参数为 `false` `no` `f` `n` 等值），这将会大大减少请求次数从而更难触发网站的反爬机制。
 
-路由默认会获取 **30** 个条目。在路由后指定 `?limit=<条目数量>` 减少或增加单次获取条目数量，同样可以减少请求次数，如设置为一次获取 **10** 个条目，路由可以更改为 [`/chaoxing/qk/6b5c39b3dd84352be512e29df0297437?limit=10`](https://rsshub.app/chaoxing/qk/6b5c39b3dd84352be512e29df0297437?limit=10)
+路由默认会获取 **30** 个条目。在路由后指定 `?limit=<条目数量>` 减少或增加单次获取条目数量，同样可以减少请求次数，如设置为一次获取 **10** 个条目，路由可以更改为 [`/chaoxing/qk/6b5c39b3dd84352be512e29df0297437?limit=10`](https://rsshub.moeyy.cn/chaoxing/qk/6b5c39b3dd84352be512e29df0297437?limit=10)
 
-在根据上文设置 **需要获取文章全文** 为不需要时，你可以将 `limit` 值增大，从而获取更多的条目，此时因为不获取全文也不会触发反爬机制，如 [`/chaoxing/qk/6b5c39b3dd84352be512e29df0297437/false?limit=100`](https://rsshub.app/chaoxing/qk/6b5c39b3dd84352be512e29df0297437/false?limit=100)
+在根据上文设置 **需要获取文章全文** 为不需要时，你可以将 `limit` 值增大，从而获取更多的条目，此时因为不获取全文也不会触发反爬机制，如 [`/chaoxing/qk/6b5c39b3dd84352be512e29df0297437/false?limit=100`](https://rsshub.moeyy.cn/chaoxing/qk/6b5c39b3dd84352be512e29df0297437/false?limit=100)
 
 :::
 
@@ -467,9 +467,9 @@ count 的取值范围为 1-12，为防止请求次数过多，推荐设置为 5 
 
 参数 **是否查看历史榜单** 设置为 `true` `yes` `t` `y` 等值后，RSS 会返回历史榜单。
 
-如 [`/qidiantu/1/1/t`](https://rsshub.app/qidiantu/1/1/t) 将会返回 [起点首页 - 封推 的历史推荐记录](https://www.qidiantu.com/bang/1/1/) 的结果。
+如 [`/qidiantu/1/1/t`](https://rsshub.moeyy.cn/qidiantu/1/1/t) 将会返回 [起点首页 - 封推 的历史推荐记录](https://www.qidiantu.com/bang/1/1/) 的结果。
 
-而 [`/qidiantu/1/1`](https://rsshub.app/qidiantu/1/1) 将会返回最新一期 [收藏增长 (起点首页 - 封推)](https://www.qidiantu.com/bang/1/1/2021-12-14) 的结果（编写文档时最新一期为 2021-12-14）。
+而 [`/qidiantu/1/1`](https://rsshub.moeyy.cn/qidiantu/1/1) 将会返回最新一期 [收藏增长 (起点首页 - 封推)](https://www.qidiantu.com/bang/1/1/2021-12-14) 的结果（编写文档时最新一期为 2021-12-14）。
 
 :::
 

@@ -342,7 +342,7 @@ For instance, the `/github/topics/framework/l=php&o=desc&s=stars` route will gen
 >
 > > Reeder will make an error when subscribing to `% 2erss` or similar suffixes. At this time, add`.rss` after the route to subscribe
 > >
-> > Such as: replace `https://rsshub.app/github/file/DIYgod/RSSHub/master/lib/router%2ejs` to `https://rsshub.app/github/file/DIYgod/RSSHub/master/lib/router%2ejs.rss`
+> > Such as: replace `https://rsshub.moeyy.cn/github/file/DIYgod/RSSHub/master/lib/router%2ejs` to `https://rsshub.moeyy.cn/github/file/DIYgod/RSSHub/master/lib/router%2ejs.rss`
 
 </Route>
 
@@ -1159,7 +1159,7 @@ Stay up to date on the latest React news, tutorials, resources, and more. Delive
 | ------------------- | ------------------------ | ------------------- | ---------------------- |
 | industry            | project                  | industry-news       | programming            |
 
-订阅 [全部板块资讯][osc_all] 可以使用 <https://rsshub.app/oschina/news>
+订阅 [全部板块资讯][osc_all] 可以使用 <https://rsshub.moeyy.cn/oschina/news>
 
 [osc_all]: https://www.oschina.net/news "开源中国 - 全部资讯"
 

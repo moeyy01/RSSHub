@@ -8,13 +8,13 @@ Parameters here need to be placed after the route path. Some routes may have <sp
 
 E.g.
 
-<a href="https://rsshub.app/twitter/user/durov/readable=1&includeRts=0?brief=100&limit=5">https://rsshub.app/twitter/user/durov/<span style={{color: "green"}}><b>readable=1&includeRts=0</b></span>?<span style={{color: "violet"}}><b>brief=100&limit=5</b></span></a>
+<a href="https://rsshub.moeyy.cn/twitter/user/durov/readable=1&includeRts=0?brief=100&limit=5">https://rsshub.moeyy.cn/twitter/user/durov/<span style={{color: "green"}}><b>readable=1&includeRts=0</b></span>?<span style={{color: "violet"}}><b>brief=100&limit=5</b></span></a>
 
 If a <span style={{color: "magenta"}}>**output format**</span> (`.atom`, `.rss`, `.json`, `.debug.json`) is set, it needs to be placed between the route path (including <span style={{color: "green"}}>**custom route parameters**</span>) and <span style={{color: "violet"}}>**other parameters**</span>.
 
 E.g.
 
-<a href="https://rsshub.app/twitter/user/durov/readable=1&includeRts=0.atom?brief=100&limit=5">https://rsshub.app/twitter/user/durov/<span style={{color: "green"}}><b>readable=1&includeRts=0</b></span><span style={{color: "magenta"}}><b>.atom</b></span>?<span style={{color: "violet"}}><b>brief=100&limit=5</b></span></a>
+<a href="https://rsshub.moeyy.cn/twitter/user/durov/readable=1&includeRts=0.atom?brief=100&limit=5">https://rsshub.moeyy.cn/twitter/user/durov/<span style={{color: "green"}}><b>readable=1&includeRts=0</b></span><span style={{color: "magenta"}}><b>.atom</b></span>?<span style={{color: "violet"}}><b>brief=100&limit=5</b></span></a>
 
 :::
 
@@ -50,7 +50,7 @@ Set `filter` to include the content
 
 -   `filter_time`: filter `pubDate`, in seconds, return specified time range. Item without `pubDate` will not be filtered.
 
-E.g. [https://rsshub.app/dribbble/popular?filter=Blue|Yellow|Black](https://rsshub.app/dribbble/popular?filter=Blue|Yellow|Black)
+E.g. [https://rsshub.moeyy.cn/dribbble/popular?filter=Blue|Yellow|Black](https://rsshub.moeyy.cn/dribbble/popular?filter=Blue|Yellow|Black)
 
 Set `filterout` to exclude unwanted content.
 
@@ -64,31 +64,31 @@ Set `filterout` to exclude unwanted content.
 
 -   `filterout_category`: filter `category` only
 
-E.g. [https://rsshub.app/dribbble/popular?filterout=Blue|Yellow|Black](https://rsshub.app/dribbble/popular?filterout=Blue|Yellow|Black)
+E.g. [https://rsshub.moeyy.cn/dribbble/popular?filterout=Blue|Yellow|Black](https://rsshub.moeyy.cn/dribbble/popular?filterout=Blue|Yellow|Black)
 
 Set `filter_case_sensitive` to determine whether the filtering keywords should be case sensitive. The parameter would apply to both `filter` and `filterout`.
 
 Default: `true`
 
-E.g. [https://rsshub.app/dribbble/popular?filter=BluE|yeLLow|BlaCK&filter_case_sensitive=false](https://rsshub.app/dribbble/popular?filter=BluE|yeLLow|BlaCK&filter_case_sensitive=false)
+E.g. [https://rsshub.moeyy.cn/dribbble/popular?filter=BluE|yeLLow|BlaCK&filter_case_sensitive=false](https://rsshub.moeyy.cn/dribbble/popular?filter=BluE|yeLLow|BlaCK&filter_case_sensitive=false)
 
 ## Limit Entries
 
 Set `limit` to limit the number of articles in the feed.
 
-E.g. Dribbble Popular Top 10 [https://rsshub.app/dribbble/popular?limit=10](https://rsshub.app/dribbble/popular?limit=10)
+E.g. Dribbble Popular Top 10 [https://rsshub.moeyy.cn/dribbble/popular?limit=10](https://rsshub.moeyy.cn/dribbble/popular?limit=10)
 
 ## Sorted
 
 Set `sorted` to control whether to sort the output by the publish date (`pubDate`). This is useful for some feeds that pin some entries at the top. Default to `true` i.e. the output is sorted.
 
-E.g. NJU Undergraduate Bulletin Board <https://rsshub.app/nju/jw/ggtz?sorted=false>
+E.g. NJU Undergraduate Bulletin Board <https://rsshub.moeyy.cn/nju/jw/ggtz?sorted=false>
 
 ## Fulltext
 
 Enable fulltext via `mode` parameter.
 
-E.g. Bilibili article <https://rsshub.app/bilibili/user/article/334958638?mode=fulltext>
+E.g. Bilibili article <https://rsshub.moeyy.cn/bilibili/user/article/334958638?mode=fulltext>
 
 ## Access Control
 
@@ -102,7 +102,7 @@ Enable Telegram Instant View requires a page template, it can be obtained from T
 
 -   `tgiv`: template hash, obtained from the link of template page generated（the string after `&rhash=`）
 
-E.g. <https://rsshub.app/novel/biquge/94_94525?tgiv=bd3c42818a7f7e>
+E.g. <https://rsshub.moeyy.cn/novel/biquge/94_94525?tgiv=bd3c42818a7f7e>
 
 ## Sci-hub link
 
@@ -110,13 +110,13 @@ Output Sci-hub link in scientific journal routes, this supports major journals o
 
 -   `scihub`: set to any value
 
-E.g. <https://rsshub.app/pnas/latest?scihub=1>
+E.g. <https://rsshub.moeyy.cn/pnas/latest?scihub=1>
 
 ## Conversion between Traditional and Simplified Chinese
 
 -   `opencc`: `s2t` (Simplified Chinese to Traditional Chinese)、`t2s` (Traditional Chinese to Simplified Chinese), other optional values refer to [simplecc-wasm - Configurations](https://github.com/fengkx/simplecc-wasm#%E9%85%8D%E7%BD%AE-configurations)
 
-E.g. <https://rsshub.app/dcard/posts/popular?opencc=t2s>
+E.g. <https://rsshub.moeyy.cn/dcard/posts/popular?opencc=t2s>
 
 ## Multimedia processing
 
@@ -140,11 +140,11 @@ RSSHub conforms to RSS 2.0, Atom and JSON Feed Standard, simply append `.rss`, `
 
 E.g.
 
--   Default (RSS 2.0) - [https://rsshub.app/dribbble/popular](https://rsshub.app/dribbble/popular)
--   RSS 2.0 - [https://rsshub.app/dribbble/popular.rss](https://rsshub.app/dribbble/popular.rss)
--   Atom - [https://rsshub.app/dribbble/popular.atom](https://rsshub.app/dribbble/popular.atom)
--   JSON Feed - [https://rsshub.app/twitter/user/DIYgod.json](https://rsshub.app/twitter/user/DIYgod.json)
--   Apply filters or URL query - [https://rsshub.app/dribbble/popular.atom?filterout=Blue|Yellow|Black](https://rsshub.app/dribbble/popular.atom?filterout=Blue|Yellow|Black)
+-   Default (RSS 2.0) - [https://rsshub.moeyy.cn/dribbble/popular](https://rsshub.moeyy.cn/dribbble/popular)
+-   RSS 2.0 - [https://rsshub.moeyy.cn/dribbble/popular.rss](https://rsshub.moeyy.cn/dribbble/popular.rss)
+-   Atom - [https://rsshub.moeyy.cn/dribbble/popular.atom](https://rsshub.moeyy.cn/dribbble/popular.atom)
+-   JSON Feed - [https://rsshub.moeyy.cn/twitter/user/DIYgod.json](https://rsshub.moeyy.cn/twitter/user/DIYgod.json)
+-   Apply filters or URL query - [https://rsshub.moeyy.cn/dribbble/popular.atom?filterout=Blue|Yellow|Black](https://rsshub.moeyy.cn/dribbble/popular.atom?filterout=Blue|Yellow|Black)
 
 ### debug.json
 

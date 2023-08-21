@@ -32,7 +32,7 @@ export default function Route({
   puppeteer?: boolean;
   children?: JSX.Element | JSX.Element[];
 }): JSX.Element {
-    const demoUrl = 'https://rsshub.app' + example;
+    const demoUrl = 'https://rsshub.moeyy.cn' + example;
     const paramMatch = path.match(/(?<=:).*?(?=\/|$)/g);
 
     const renderMarkdown = (item, inline = true) => {

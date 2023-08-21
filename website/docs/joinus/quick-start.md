@@ -6,9 +6,6 @@ sidebar_position: 1
 
 If you've found a bug or have a suggestion for improving RSSHub, we'd love to hear from you! You can submit your changes by creating a pull request. Don't worry if you're new to pull requests - we welcome contributions from developers of all experience levels. Don't know how to code? You can also help by [reporting bugs](https://github.com/DIYgod/RSSHub/issues).
 
-## Join the discussion
-
-[![Telegram Group](https://img.shields.io/badge/chat-telegram-brightgreen.svg?logo=telegram&style=for-the-badge)](https://t.me/rsshub) [![GitHub issues](https://img.shields.io/github/issues/DIYgod/RSSHub?color=bright-green&logo=github&style=for-the-badge)](https://github.com/DIYgod/RSSHub/issues) [![GitHub Discussions](https://img.shields.io/github/discussions/DIYgod/RSSHub?logo=github&style=for-the-badge)](https://github.com/DIYgod/RSSHub/discussions)
 
 ## Before you begin
 

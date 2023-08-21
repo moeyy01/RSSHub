@@ -1,12 +1,12 @@
 import React from 'react';
 import DocSidebarItem from '@theme-original/DocSidebarItem';
-import CarbonAds from '@site/src/components/CarbonAds';
+// import CarbonAds from '@site/src/components/CarbonAds';
 
 export default function DocSidebarItemWrapper(props) {
     if (props.item.value === 'CarbonAds') {
         return (
             <>
-                <CarbonAds />
+                {/* <CarbonAds /> */}
             </>
         );
     }

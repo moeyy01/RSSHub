@@ -16,7 +16,7 @@
 
 All Topics in [Topic Library](https://abc.net.au/news/topics) are supported, you can fill in the field after `topic` in its URL, or fill in the `documentId`.
 
-For example, the URL for [Computers and Technology](https://www.abc.net.au/news/topic/computers-and-technology) is <https://www.abc.net.au/news/topic/computers-and-technology>, the field after `topic` is `computers-and-technology`, and the `documentId` of the Topic is `2302`, so the route is [/abc/computers-and-technology](https://rsshub.app/abc/computers-and-technology) and [/abc/2302](https://rsshub.app/abc/2302).
+For example, the URL for [Computers and Technology](https://www.abc.net.au/news/topic/computers-and-technology) is <https://www.abc.net.au/news/topic/computers-and-technology>, the field after `topic` is `computers-and-technology`, and the `documentId` of the Topic is `2302`, so the route is [/abc/computers-and-technology](https://rsshub.moeyy.cn/abc/computers-and-technology) and [/abc/2302](https://rsshub.moeyy.cn/abc/2302).
 
 The supported channels are all listed in the table below. For other channels, please find the `documentId` in the source code of the channel page and fill it in as above.
 
@@ -72,9 +72,9 @@ Language
 
 :::tip
 
-If you subscribe to [Al Jazeera English - Economy](https://www.aljazeera.com/economy), whose language is `english` and whose path is `economy`, you can get the route as [`/aljazeera/english/economy`](https://rsshub.app/aljazeera/english/economy)
+If you subscribe to [Al Jazeera English - Economy](https://www.aljazeera.com/economy), whose language is `english` and whose path is `economy`, you can get the route as [`/aljazeera/english/economy`](https://rsshub.moeyy.cn/aljazeera/english/economy)
 
-If you subscribe to [Al Jazeera Chinese - Political](https://chinese.aljazeera.net/news/political) with language `chinese` and path `news/political`, you can get the route as [`/aljazeera/chinese/news/political`](https://rsshub.app/aljazeera/chinese/news/political)
+If you subscribe to [Al Jazeera Chinese - Political](https://chinese.aljazeera.net/news/political) with language `chinese` and path `news/political`, you can get the route as [`/aljazeera/chinese/news/political`](https://rsshub.moeyy.cn/aljazeera/chinese/news/political)
 
 :::
 
@@ -92,7 +92,7 @@ Language
 
 :::tip
 
-If you subscribe to [Al Jazeera English - Science and Technology](https://www.aljazeera.com/tag/science-and-technology), whose language is `english` and whose path is `science-and-technology`, you can get the route as [`/aljazeera/english/tag/science-and-technology`](https://rsshub.app/aljazeera/english/tag/science-and-technology)
+If you subscribe to [Al Jazeera English - Science and Technology](https://www.aljazeera.com/tag/science-and-technology), whose language is `english` and whose path is `science-and-technology`, you can get the route as [`/aljazeera/english/tag/science-and-technology`](https://rsshub.moeyy.cn/aljazeera/english/tag/science-and-technology)
 
 :::
 
@@ -451,7 +451,7 @@ Only `s00017` is in English.
 
 **编号** 仅对事件追蹤、評論節目、新聞專題三个分类起作用，例子如下：
 
-对于 [事件追蹤](https://news.now.com/home/tracker) 中的 [塔利班奪權](https://news.now.com/home/tracker/detail?catCode=123&topicId=1056) 话题，其网址为<https://news.now.com/home/tracker/detail?catCode=123&topicId=1056>，其中 `topicId` 为 1056，则对应路由为 [`/now/news/tracker/1056`](https://rsshub.app/now/news/tracker/1056)
+对于 [事件追蹤](https://news.now.com/home/tracker) 中的 [塔利班奪權](https://news.now.com/home/tracker/detail?catCode=123&topicId=1056) 话题，其网址为<https://news.now.com/home/tracker/detail?catCode=123&topicId=1056>，其中 `topicId` 为 1056，则对应路由为 [`/now/news/tracker/1056`](https://rsshub.moeyy.cn/now/news/tracker/1056)
 
 :::
 
@@ -610,7 +610,7 @@ This route adds the missing photo and Link element. (Offical RSS doesn't have Li
 
 :::tip
 
-When subscribing to podcasts, fill `category` with **podcast**. For example, URL to [SBS 普通话电台](https://www.sbs.com.au/chinese/mandarin/zh-hans/podcast/sbs-mandarin) is <https://www.sbs.com.au/chinese/mandarin/zh-hans/podcast/sbs-mandarin>, with **sbs-mandarin** as `id`, **mandarin** as `dialect`, `language` as **zh-hans**, and the route is [`/sbs/chinese/podcast/sbs-mandarin/mandarin/zh-hans`](https://rsshub.app/sbs/chinese/podcast/sbs-mandarin/mandarin/zh-hans).
+When subscribing to podcasts, fill `category` with **podcast**. For example, URL to [SBS 普通话电台](https://www.sbs.com.au/chinese/mandarin/zh-hans/podcast/sbs-mandarin) is <https://www.sbs.com.au/chinese/mandarin/zh-hans/podcast/sbs-mandarin>, with **sbs-mandarin** as `id`, **mandarin** as `dialect`, `language` as **zh-hans**, and the route is [`/sbs/chinese/podcast/sbs-mandarin/mandarin/zh-hans`](https://rsshub.moeyy.cn/sbs/chinese/podcast/sbs-mandarin/mandarin/zh-hans).
 
 :::
 
@@ -648,7 +648,7 @@ SBS Cantonese Programs:
 
 :::tip
 
-Mostly, you can omit `language`, for the reason that **madarin** is with **zh-hans** and **cantonese** is with **zh-hant** by default. For example, the route of [SBS 普通话电台](https://www.sbs.com.au/chinese/mandarin/zh-hans/podcast/sbs-mandarin) is [`/sbs/chinese/podcast/sbs-mandarin/mandarin/zh-hans`](https://rsshub.app/sbs/chinese/podcast/sbs-mandarin/mandarin/zh-hans), which can also be [`/sbs/chinese/podcast/sbs-mandarin/mandarin`](https://rsshub.app/sbs/chinese/podcast/sbs-mandarin/mandarin).
+Mostly, you can omit `language`, for the reason that **madarin** is with **zh-hans** and **cantonese** is with **zh-hant** by default. For example, the route of [SBS 普通话电台](https://www.sbs.com.au/chinese/mandarin/zh-hans/podcast/sbs-mandarin) is [`/sbs/chinese/podcast/sbs-mandarin/mandarin/zh-hans`](https://rsshub.moeyy.cn/sbs/chinese/podcast/sbs-mandarin/mandarin/zh-hans), which can also be [`/sbs/chinese/podcast/sbs-mandarin/mandarin`](https://rsshub.moeyy.cn/sbs/chinese/podcast/sbs-mandarin/mandarin).
 
 You still can customize `language`, however, it is important to note that not all pages are available in bilingual versions.
 
@@ -877,11 +877,11 @@ Provides all of the articles by the specified New York Times author.
 
 :::tip
 
-如 [中国 经济 日经中文网](https://cn.nikkei.com/china/ceconomy.html) 的 URL 为 <https://cn.nikkei.com/china/ceconomy.html> 对应路由为 [`/nikkei/cn/cn/china/ceconomy`](https://rsshub.app/nikkei/cn/cn/china/ceconomy)
+如 [中国 经济 日经中文网](https://cn.nikkei.com/china/ceconomy.html) 的 URL 为 <https://cn.nikkei.com/china/ceconomy.html> 对应路由为 [`/nikkei/cn/cn/china/ceconomy`](https://rsshub.moeyy.cn/nikkei/cn/cn/china/ceconomy)
 
-如 [中國 經濟 日經中文網](https://zh.cn.nikkei.com/china/ceconomy.html) 的 URL 为 <https://zh.cn.nikkei.com/china/ceconomy.html> 对应路由为 [`/nikkei/cn/zh/china/ceconomy`](https://rsshub.app/nikkei/cn/zh/china/ceconomy)
+如 [中國 經濟 日經中文網](https://zh.cn.nikkei.com/china/ceconomy.html) 的 URL 为 <https://zh.cn.nikkei.com/china/ceconomy.html> 对应路由为 [`/nikkei/cn/zh/china/ceconomy`](https://rsshub.moeyy.cn/nikkei/cn/zh/china/ceconomy)
 
-特别地，当 `path` 填入 `rss` 后（如路由为 [`/nikkei/cn/cn/rss`](https://rsshub.app/nikkei/cn/cn/rss)），此时返回的是 [官方 RSS 的内容](https://cn.nikkei.com/rss.html)
+特别地，当 `path` 填入 `rss` 后（如路由为 [`/nikkei/cn/cn/rss`](https://rsshub.moeyy.cn/nikkei/cn/cn/rss)），此时返回的是 [官方 RSS 的内容](https://cn.nikkei.com/rss.html)
 
 :::
 
@@ -1122,11 +1122,11 @@ Category 列表：
 
 以下小标题即类型 `genre`，标题下表格中为对应类型的分类 `category`，两者需要配合使用。
 
-如订阅 **社会** 类型中的 **事件・事故・裁判** 分类，填入 [`/asahi/national/incident`](http://rsshub.app/asahi/national/incident)。
+如订阅 **社会** 类型中的 **事件・事故・裁判** 分类，填入 [`/asahi/national/incident`](http://rsshub.moeyy.cn/asahi/national/incident)。
 
-若类型下没有分类，如 **トップ** 类型，直接填入 [`/asahi/top`](http://rsshub.app/asahi/top)。
+若类型下没有分类，如 **トップ** 类型，直接填入 [`/asahi/top`](http://rsshub.moeyy.cn/asahi/top)。
 
-或者欲订阅该类型下的所有分类，如订阅 **社会** 中的所有分类，则直接将分类 `category` 留空，即 [`/asahi/national`](http://rsshub.app/asahi/national)。
+或者欲订阅该类型下的所有分类，如订阅 **社会** 中的所有分类，则直接将分类 `category` 留空，即 [`/asahi/national`](http://rsshub.moeyy.cn/asahi/national)。
 
 :::
 
@@ -1678,29 +1678,29 @@ IT・科学 tech_science
 
 以下小标题即栏目 `column`，标题下表格中为对应栏目的分类 `category`，两者需要配合使用。
 
-如订阅 **时事・政策・宏观** 栏目中的 **大宗商品** 分类，填入 [`/eeo/yaowen/dzsp`](http://rsshub.app/eeo/yaowen/dzsp)。
+如订阅 **时事・政策・宏观** 栏目中的 **大宗商品** 分类，填入 [`/eeo/yaowen/dzsp`](http://rsshub.moeyy.cn/eeo/yaowen/dzsp)。
 
-若栏目下没有分类，如 **商业产业** 栏目，直接填入 [`/eeo/shangyechanye`](http://rsshub.app/eeo/shangyechanye)。
+若栏目下没有分类，如 **商业产业** 栏目，直接填入 [`/eeo/shangyechanye`](http://rsshub.moeyy.cn/eeo/shangyechanye)。
 
-或者欲订阅该栏目下的所有分类，如订阅 **时事・政策・宏观** 中的所有分类，则直接将分类 `category` 留空，即 [`/eeo/yaowen`](http://rsshub.app/eeo/yaowen)。
+或者欲订阅该栏目下的所有分类，如订阅 **时事・政策・宏观** 中的所有分类，则直接将分类 `category` 留空，即 [`/eeo/yaowen`](http://rsshub.moeyy.cn/eeo/yaowen)。
 
 :::
 
-商业产业 shangyechanye [`/eeo/shangyechanye`](http://rsshub.app/eeo/shangyechanye)
+商业产业 shangyechanye [`/eeo/shangyechanye`](http://rsshub.moeyy.cn/eeo/shangyechanye)
 
-财经 caijing [`/eeo/caijing`](http://rsshub.app/eeo/caijing)
+财经 caijing [`/eeo/caijing`](http://rsshub.moeyy.cn/eeo/caijing)
 
-上市公司 ssgsn [`/eeo/ssgsn`](http://rsshub.app/eeo/ssgsn)
+上市公司 ssgsn [`/eeo/ssgsn`](http://rsshub.moeyy.cn/eeo/ssgsn)
 
-地产 dichan [`/eeo/dichan`](http://rsshub.app/eeo/dichan)
+地产 dichan [`/eeo/dichan`](http://rsshub.moeyy.cn/eeo/dichan)
 
-汽车 qiche [`/eeo/qiche`](http://rsshub.app/eeo/qiche)
+汽车 qiche [`/eeo/qiche`](http://rsshub.moeyy.cn/eeo/qiche)
 
-TMT tmt [`/eeo/tmt`](http://rsshub.app/eeo/tmt)
+TMT tmt [`/eeo/tmt`](http://rsshub.moeyy.cn/eeo/tmt)
 
-评论 pinglun [`/eeo/pinglun`](http://rsshub.app/eeo/pinglun)
+评论 pinglun [`/eeo/pinglun`](http://rsshub.moeyy.cn/eeo/pinglun)
 
-研究院 yanjiuyuan [`/eeo/yanjiuyuan`](http://rsshub.app/eeo/yanjiuyuan)
+研究院 yanjiuyuan [`/eeo/yanjiuyuan`](http://rsshub.moeyy.cn/eeo/yanjiuyuan)
 
 :::tip 建议
 
@@ -1708,15 +1708,15 @@ TMT tmt [`/eeo/tmt`](http://rsshub.app/eeo/tmt)
 
 :::
 
-两会 lianghui [`/eeo/lianghui`](http://rsshub.app/eeo/lianghui)
+两会 lianghui [`/eeo/lianghui`](http://rsshub.moeyy.cn/eeo/lianghui)
 
-时事・政策・宏观 yaowen [`/eeo/yaowen`](http://rsshub.app/eeo/yaowen)
+时事・政策・宏观 yaowen [`/eeo/yaowen`](http://rsshub.moeyy.cn/eeo/yaowen)
 
 | 时事  | 政策   | 宏观    | 智库       | 首席观点 | 大宗商品 |
 | ----- | ------ | ------- | ---------- | -------- | -------- |
 | dashi | hfggzc | hfshuju | hfdongjian | sxgd     | dzsp     |
 
-证券・资本・理财 jinrong [`/eeo/jinrong`](http://rsshub.app/eeo/jinrong)
+证券・资本・理财 jinrong [`/eeo/jinrong`](http://rsshub.moeyy.cn/eeo/jinrong)
 
 | 债市    | 资本  | 理财  | 证券      | 银行  |
 | ------- | ----- | ----- | --------- | ----- |
@@ -1726,25 +1726,25 @@ TMT tmt [`/eeo/tmt`](http://rsshub.app/eeo/tmt)
 | ------- | --------- | ----------- | --------- | ---------- |
 | jinkong | chuangtou | kechuangban | xinsanban | hlwjr      |
 
-新科技・互联网・O2O shangye [`/eeo/shangye`](http://rsshub.app/eeo/shangye)
+新科技・互联网・O2O shangye [`/eeo/shangye`](http://rsshub.moeyy.cn/eeo/shangye)
 
 | 新科技      | 互联网    | 大健康 | O2O   | 花蕾之约     | 创业家笔记 | 环境     |
 | ----------- | --------- | ------ | ----- | ------------ | ---------- | -------- |
 | xinnengyuan | dianshang | yiliao | wuliu | hualeizhiyue | cyjbj      | huanjing |
 
-房产・汽车・消费 fcqcxf [`/eeo/fcqcxf`](http://rsshub.app/eeo/fcqcxf)
+房产・汽车・消费 fcqcxf [`/eeo/fcqcxf`](http://rsshub.moeyy.cn/eeo/fcqcxf)
 
 | 房产   | 汽车  | 消费    |
 | ------ | ----- | ------- |
 | dichan | qiche | xiaofei |
 
-影视・体育・娱乐 yule [`/eeo/yule`](http://rsshub.app/eeo/yule)
+影视・体育・娱乐 yule [`/eeo/yule`](http://rsshub.moeyy.cn/eeo/yule)
 
 | 娱乐 | 影视    | 体育 | 教育   |
 | ---- | ------- | ---- | ------ |
 | yule | yingshi | tiyu | jiaoyu |
 
-观察家・书评・思想 gcj [`/eeo/gcj`](http://rsshub.app/eeo/gcj)
+观察家・书评・思想 gcj [`/eeo/gcj`](http://rsshub.moeyy.cn/eeo/gcj)
 
 | 观察家     | 专栏     | 个人历史 | 书评    |
 | ---------- | -------- | -------- | ------- |
@@ -1792,7 +1792,7 @@ category 对应的关键词有
 
 <Route author="nczitzk" example="/cntheory/paper" path="/cntheory/paper/:id?" paramsDesc={['板块，默认为全部']}>
 
-如订阅 **第 A1 版：国内大局**，路由为 [`/cntheory/paper/国内大局`](https://rsshub.app/cntheory/paper/国内大局)。
+如订阅 **第 A1 版：国内大局**，路由为 [`/cntheory/paper/国内大局`](https://rsshub.moeyy.cn/cntheory/paper/国内大局)。
 
 </Route>
 
@@ -1998,7 +1998,7 @@ category 对应的关键词有
 
 :::tip
 
-如 [蒙古语卫视新闻联播](http://www.nmtv.cn/folder292/folder663/folder301/folder830/folder877) 的 URL 为 <http://www.nmtv.cn/folder292/folder663/folder301/folder830/folder877>，其栏目 id 为末尾数字编号，即 `877`。可以得到其对应路由为 [`/nmtv/column/877`](https://rsshub.app/nmtv/column/877)
+如 [蒙古语卫视新闻联播](http://www.nmtv.cn/folder292/folder663/folder301/folder830/folder877) 的 URL 为 <http://www.nmtv.cn/folder292/folder663/folder301/folder830/folder877>，其栏目 id 为末尾数字编号，即 `877`。可以得到其对应路由为 [`/nmtv/column/877`](https://rsshub.moeyy.cn/nmtv/column/877)
 
 :::
 
@@ -2204,13 +2204,13 @@ category 对应的关键词有
 
 1.  将 URL <http://env.people.com.cn/GB/74877/index.html> 中 `http://` 与 `.people.com.cn/` 中间的 `env` 作为 `site` 参数填入；
 2.  将 `http://env.people.com.cn/GB/` 与 `/index.html` 间的 `74877` 作为 `category` 参数填入；
-3.  最终可获得 [`/people/env/74877`](https://rsshub.app/people/env/74877)。
+3.  最终可获得 [`/people/env/74877`](https://rsshub.moeyy.cn/people/env/74877)。
 
 订阅 **多级** 栏目如 [经济观察 -- 观点 -- 人民网](http://opinion.people.com.cn/GB/427456/434878/index.html) 分类栏目，同样分为 3 步：
 
 1.  将 URL <http://opinion.people.com.cn/GB/427456/434878/index.html> 中 `http://` 与 `.people.com.cn/` 中间的 `opinion` 作为 `site` 参数填入；
 2.  把 `http://opinion.people.com.cn/GB/` 与 `/index.html` 间 `427456/434878` 作为 `category` 参数填入；
-3.  最终可获得 [`/people/opinion/427456/434878`](https://rsshub.app/people/opinion/427456/434878)。
+3.  最终可获得 [`/people/opinion/427456/434878`](https://rsshub.moeyy.cn/people/opinion/427456/434878)。
 
 :::tip
 
@@ -2587,9 +2587,9 @@ category 对应的关键词有
 
 :::tip
 
-若订阅单级分类 [头条](https://www.sinchew.com.my/category/头条)，其 URL 为 [https://www.sinchew.com.my/category/ 头条](https://www.sinchew.com.my/category/头条)，则路由为 [`/sinchew/category/头条`](https://rsshub.app/sinchew/category/头条)。
+若订阅单级分类 [头条](https://www.sinchew.com.my/category/头条)，其 URL 为 [https://www.sinchew.com.my/category/ 头条](https://www.sinchew.com.my/category/头条)，则路由为 [`/sinchew/category/头条`](https://rsshub.moeyy.cn/sinchew/category/头条)。
 
-若订阅多级分类 [国际 > 天下事](https://www.sinchew.com.my/category/国际/天下事)，其 URL 为 [https://www.sinchew.com.my/category/ 国际 / 天下事](https://www.sinchew.com.my/category/国际/天下事)，则路由为 [`/sinchew/category/国际/天下事`](https://rsshub.app/sinchew/category/国际/天下事)。
+若订阅多级分类 [国际 > 天下事](https://www.sinchew.com.my/category/国际/天下事)，其 URL 为 [https://www.sinchew.com.my/category/ 国际 / 天下事](https://www.sinchew.com.my/category/国际/天下事)，则路由为 [`/sinchew/category/国际/天下事`](https://rsshub.moeyy.cn/sinchew/category/国际/天下事)。
 
 :::
 
@@ -2711,7 +2711,7 @@ category 对应的关键词有
 <Route author="5upernova-heng" example="/cgtn/podcast/ezfm/4" path="/cgtn/podcast/:category/:id" paramsDesc={['类型名','播客 id']} radar="1">
 
 > 类型名与播客 id 可以在播客对应的 URL 中找到
-> 如 URL `https://radio.cgtn.com/podcast/column/ezfm/More-to-Read/4` ，其 `category` 为 `ezfm` ，`id` 为 `4`，对应的订阅路由为 [`/podcast/ezfm/4`](https://rsshub.app/podcast/ezfm/4)
+> 如 URL `https://radio.cgtn.com/podcast/column/ezfm/More-to-Read/4` ，其 `category` 为 `ezfm` ，`id` 为 `4`，对应的订阅路由为 [`/podcast/ezfm/4`](https://rsshub.moeyy.cn/podcast/ezfm/4)
 
 </Route>
 
