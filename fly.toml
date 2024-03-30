@@ -1,36 +1,42 @@
-app = "rsshub"
-kill_signal = "SIGINT"
-kill_timeout = 5
-processes = []
+# fly.toml app configuration file generated for rsshub-moeyy on 2024-01-08T04:19:46+08:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
 
-[env]
+app = "rsshub-moeyy"
+primary_region = "hkg"
+kill_signal = "SIGINT"
+kill_timeout = "5s"
+swap_size_mb = 1024
 
 [experimental]
 auto_rollback = true
 
-[[services]]
-http_checks = []
+[build]
+
+[env]
+port = "1200"
+REQUEST_RETRY = "3"
+REQUEST_TIMEOUT = "5000"
+ALLOW_ORIGIN = "*"
+CACHE_TYPE = "memory"
+CACHE_EXPIRE = "1200"
+CACHE_CONTENT_EXPIRE = "1200"
+HOTLINK_TEMPLATE = "https://images.weserv.nl?url=${href_ue}"
+
+
+[http_service]
 internal_port = 1200
+auto_stop_machines = true
+auto_start_machines = true
+min_machines_running = 1
 processes = ["app"]
-protocol = "tcp"
-script_checks = []
+# [http_service.http_options]
+#   [http_service.http_options.response]
+#     [http_service.http_options.response.headers]
+#       Fly-Request-Id = false
 
-[services.concurrency]
-hard_limit = 25
-soft_limit = 20
-type = "connections"
-
-[[services.ports]]
-force_https = true
-handlers = ["http"]
-port = 80
-
-[[services.ports]]
-handlers = ["tls", "http"]
-port = 443
-
-[[services.tcp_checks]]
-grace_period = "1s"
-interval = "15s"
-restart_limit = 0
-timeout = "2s"
+[[vm]]
+cpu_kind = "shared"
+cpus = 1
+memory_mb = 256
