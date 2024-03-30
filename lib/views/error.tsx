@@ -66,7 +66,42 @@ const Index: FC<{
                     </div>
                 </div>
             </div>
-        </Layout>
-    );
+        </div>
+        // <div className="absolute bottom-10 text-center w-full text-sm font-medium space-y-2">
+        //     <p className="space-x-4">
+        //         <a target="_blank" href="https://github.com/DIYgod/RSSHub">
+        //             <img className="inline" src="https://icons.ly/github/_/fff" alt="github" width="20" height="20" />
+        //         </a>
+        //         <a target="_blank" href="https://t.me/rsshub">
+        //             <img className="inline" src="https://icons.ly/telegram" alt="telegram group" width="20" height="20" />
+        //         </a>
+        //         <a target="_blank" href="https://t.me/awesomeRSSHub">
+        //             <img className="inline" src="https://icons.ly/telegram" alt="telegram channel" width="20" height="20" />
+        //         </a>
+        //         <a target="_blank" href="https://twitter.com/intent/follow?screen_name=_RSSHub" className="text-[#F5712C]">
+        //             <img className="inline" src="https://icons.ly/twitter" alt="github" width="20" height="20" />
+        //         </a>
+        //     </p>
+        //     <p className="!mt-6">
+        //         Please consider{' '}
+        //         <a target="_blank" href="https://docs.rsshub.app/sponsor" className="text-[#F5712C]">
+        //             sponsoring
+        //         </a>{' '}
+        //         to help keep this open source project alive.
+        //     </p>
+        //     <p>
+        //         Made with ❤️ by{' '}
+        //         <a target="_blank" href="https://diygod.cc" className="text-[#F5712C]">
+        //             DIYgod
+        //         </a>{' '}
+        //         and{' '}
+        //         <a target="_blank" href="https://github.com/DIYgod/RSSHub/graphs/contributors" className="text-[#F5712C]">
+        //             Contributors
+        //         </a>{' '}
+        //         under MIT License.
+        //     </p>
+        // </div>
+    </Layout >
+);
 
 export default Index;
