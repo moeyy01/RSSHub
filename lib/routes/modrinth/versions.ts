@@ -2,7 +2,7 @@ import { Route } from '@/types';
 import { getCurrentPath } from '@/utils/helpers';
 import { parseDate } from '@/utils/parse-date';
 import { art } from '@/utils/render';
-import * as path from 'node:path';
+import path from 'node:path';
 import { config } from '@/config';
 import got from '@/utils/got';
 import MarkdownIt from 'markdown-it';
@@ -93,7 +93,7 @@ async function handler(ctx: Context) {
         }).json<Version[]>();
         const authors = await customGot(`https://api.modrinth.com/v2/users`, {
             searchParams: {
-                ids: JSON.stringify(versions.map((it) => it.author_id)),
+                ids: JSON.stringify([...new Set(versions.map((it) => it.author_id))]),
             },
         }).json<Author[]>();
         const groupedAuthors = <Record<string, Author>>{};
