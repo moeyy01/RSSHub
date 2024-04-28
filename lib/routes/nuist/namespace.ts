@@ -14,6 +14,6 @@ export const namespace: Namespace = {
 
 将其替换到 RSS 路由地址中即可：
 
-[https://rsshub.app/**nuist**/\`bulletin\`](https://rsshub.app/nuist/bulletin) 或 [https://rsshub.app/**nuist**/\`bulletin\`/\`791\`](https://rsshub.app/nuist/bulletin)
+[https://rsshub.moeyy.xyz/**nuist**/\`bulletin\`](https://rsshub.moeyy.xyz/nuist/bulletin) 或 [https://rsshub.moeyy.xyz/**nuist**/\`bulletin\`/\`791\`](https://rsshub.moeyy.xyz/nuist/bulletin)
 :::`,
 };

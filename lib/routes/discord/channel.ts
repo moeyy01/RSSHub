@@ -40,7 +40,7 @@ export const route: Route = {
 
 async function handler(ctx) {
     if (!config.discord || !config.discord.authorization) {
-        throw new ConfigNotFoundError('Discord RSS is disabled due to the lack of <a href="https://docs.rsshub.app/deploy/config#route-specific-configurations">relevant config</a>');
+        throw new ConfigNotFoundError('Discord RSS is disabled due to the lack of <a href="https://moeyy.cn/rsshub/deploy/config#route-specific-configurations">relevant config</a>');
     }
     const { authorization } = config.discord;
     const channelId = ctx.req.param('channelId');

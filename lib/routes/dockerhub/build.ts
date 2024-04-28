@@ -19,7 +19,7 @@ export const route: Route = {
     maintainers: ['HenryQW'],
     handler,
     description: `:::warning
-  The owner of the official image fills in the library, for example: [https://rsshub.app/dockerhub/build/library/mysql](https://rsshub.app/dockerhub/build/library/mysql)
+  The owner of the official image fills in the library, for example: [https://rsshub.moeyy.xyz/dockerhub/build/library/mysql](https://rsshub.moeyy.xyz/dockerhub/build/library/mysql)
   :::`,
 };
 

@@ -39,7 +39,7 @@ export const route: Route = {
 
 async function handler(ctx) {
     if (!config.weibo.cookies) {
-        throw new ConfigNotFoundError('Weibo Group Timeline is not available due to the absense of [Weibo Cookies]. Check <a href="https://docs.rsshub.app/deploy/config#route-specific-configurations">relevant config tutorial</a>');
+        throw new ConfigNotFoundError('Weibo Group Timeline is not available due to the absense of [Weibo Cookies]. Check <a href="https://moeyy.cn/rsshub/deploy/config#route-specific-configurations">relevant config tutorial</a>');
     }
 
     const gid = ctx.req.param('gid');

@@ -79,7 +79,7 @@ export const route: Route = {
     maintainers: ['oppilate', 'DIYgod'],
     handler,
     description: `:::warning
-Due to [Instagram Private API](https://github.com/dilame/instagram-private-api) restrictions, you have to setup your credentials on the server. 2FA is not supported. See [deployment guide](https://docs.rsshub.app/deploy/) for more.
+Due to [Instagram Private API](https://github.com/dilame/instagram-private-api) restrictions, you have to setup your credentials on the server. 2FA is not supported. See [deployment guide](https://moeyy.cn/rsshub/deploy/) for more.
 :::`,
 };
 

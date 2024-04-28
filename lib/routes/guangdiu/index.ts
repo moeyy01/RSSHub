@@ -23,7 +23,7 @@ export const route: Route = {
     maintainers: ['Fatpandac'],
     handler,
     description: `:::tip
-  海外折扣: [\`/guangdiu/k=daily&c=us\`](https://rsshub.app/guangdiu/k=daily\&c=us)
+  海外折扣: [\`/guangdiu/k=daily&c=us\`](https://rsshub.moeyy.xyz/guangdiu/k=daily\&c=us)
   :::`,
 };
 

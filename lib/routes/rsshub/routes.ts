@@ -50,7 +50,7 @@ async function handler(ctx) {
     ];
     const all = await Promise.all(
         types.map(async (type) => {
-            const response = await got(`https://docs.rsshub.app/${lang}routes/${type}`);
+            const response = await got(`https://moeyy.cn/rsshub/${lang}routes/${type}`);
 
             const data = response.data;
 
@@ -64,7 +64,7 @@ async function handler(ctx) {
 
     return {
         title: isEnglish ? 'RSSHub has new routes' : 'RSSHub 有新路由啦',
-        link: 'https://docs.rsshub.app',
+        link: 'https://moeyy.cn/rsshub',
         description: isEnglish ? 'Everything is RSSible' : '万物皆可 RSS',
         language: isEnglish ? 'en-us' : 'zh-cn',
         item: list.map(({ page, item, type }) => {
@@ -75,7 +75,7 @@ async function handler(ctx) {
             return {
                 title: `${h2Title.text().trim()} - ${h3Title.text().trim()}`,
                 description: item.html(),
-                link: `https://docs.rsshub.app/${lang}routes/${type}#${encodeURIComponent(h2Title.find('.header-anchor').attr('href') && h3Title.find('.header-anchor').attr('href')?.substring(1))}`,
+                link: `https://moeyy.cn/rsshub/${lang}routes/${type}#${encodeURIComponent(h2Title.find('.header-anchor').attr('href') && h3Title.find('.header-anchor').attr('href')?.substring(1))}`,
                 guid: item.attr('id'),
             };
         }),

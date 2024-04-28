@@ -4,7 +4,7 @@ import { Data } from '@/types';
 const RSS: FC<{ data: Data }> = ({ data }) => (
     <feed xmlns="http://www.w3.org/2005/Atom" xmlns:rsshub="http://rsshub.app/xml/schemas">
         <title>{data.title || 'RSSHub'}</title>
-        <link href={data.link || 'https://docs.rsshub.app'} />
+        <link href={data.link || 'https://moeyy.cn/rsshub'} />
         <id>{data.id || data.link}</id>
         <subtitle>{data.description || data.title} - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)</subtitle>
         <generator>RSSHub</generator>
