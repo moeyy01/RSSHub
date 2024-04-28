@@ -4,7 +4,7 @@
 #
 
 app = "rsshub-moeyy"
-primary_region = "hkg"
+primary_region = "sin"
 kill_signal = "SIGINT"
 kill_timeout = "5s"
 swap_size_mb = 1024
@@ -38,5 +38,5 @@ processes = ["app"]
 
 [[vm]]
 cpu_kind = "shared"
-cpus = 1
-memory_mb = 256
+cpus = 2
+memory_mb = 512
