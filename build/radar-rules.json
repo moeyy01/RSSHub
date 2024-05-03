@@ -6734,7 +6734,7 @@
   },
   "ycombinator.com": {
     "_name": "Hacker News",
-    ".": [
+    "news": [
       {
         "title": "用户",
         "docs": "https://moeyy.cn/rsshub/routes/programming",
@@ -8962,6 +8962,19 @@
       }
     ]
   },
+  "linkedin.com": {
+    "_name": "LinkedIn 领英",
+    "www": [
+      {
+        "title": "Jobs",
+        "docs": "https://moeyy.cn/rsshub/routes/social-media",
+        "source": [
+          "/jobs/search"
+        ],
+        "target": "/linkedin(params,url)=>{const searchParams=new URLSearchParams(new URL(url).search);const fJT=(0,import_utils.parseRouteParam)(searchParams.get(\"f_JT\"));const fE=(0,import_utils.parseRouteParam)(searchParams.get(\"f_E\"));const keywords=encodeURIComponent(searchParams.get(\"keywords\")||\"\");const newSearchParams=new URLSearchParams;for(const[key,value]of searchParams.entries()){if(![\"f_JT\",\"f_E\",\"keywords\"].includes(key)){newSearchParams.append(key,value)}}return`/linkedin/jobs/${fJT}/${fE}/${keywords}/?${newSearchParams.toString()}`}"
+      }
+    ]
+  },
   "linovelib.com": {
     "_name": "哔哩轻小说",
     "www": [
@@ -9236,6 +9249,19 @@
           "/app/mac/:appId/:appSlug"
         ],
         "target": "/macupdate/app/:appId/:appSlug?"
+      }
+    ]
+  },
+  "magnumphotos.com": {
+    "_name": "Magnum Photos",
+    ".": [
+      {
+        "title": "Magazine",
+        "docs": "https://moeyy.cn/rsshub/routes/picture",
+        "source": [
+          "/"
+        ],
+        "target": "/magnumphotos/magazine"
       }
     ]
   },
@@ -14616,19 +14642,6 @@
       }
     ]
   },
-  "thecatcity.com": {
-    "_name": "貓奴日常",
-    ".": [
-      {
-        "title": "分類",
-        "docs": "https://moeyy.cn/rsshub/routes/new-media",
-        "source": [
-          "/"
-        ],
-        "target": "/thecatcity/:term?"
-      }
-    ]
-  },
   "thehindu.com": {
     "_name": "The Hindu",
     ".": [
@@ -14681,6 +14694,64 @@
           "/"
         ],
         "target": "/thepaper/839studio/:id"
+      }
+    ]
+  },
+  "thepetcity.co": {
+    "_name": "PetCity 毛孩日常",
+    ".": [
+      {
+        "title": "Pet Staff 毛孩好物",
+        "docs": "https://moeyy.cn/rsshub/routes/new-media",
+        "source": [
+          "/category/cute-item",
+          "/"
+        ],
+        "target": "/thepetcity/1"
+      },
+      {
+        "title": "Funny News毛孩趣聞",
+        "docs": "https://moeyy.cn/rsshub/routes/new-media",
+        "source": [
+          "/category/funny-news",
+          "/"
+        ],
+        "target": "/thepetcity/2"
+      },
+      {
+        "title": "Knowledge飼養大全",
+        "docs": "https://moeyy.cn/rsshub/routes/new-media",
+        "source": [
+          "/category/knowledge",
+          "/"
+        ],
+        "target": "/thepetcity/3"
+      },
+      {
+        "title": "Hot Spot 毛孩打卡點",
+        "docs": "https://moeyy.cn/rsshub/routes/new-media",
+        "source": [
+          "/category/hot-spot",
+          "/"
+        ],
+        "target": "/thepetcity/4"
+      },
+      {
+        "title": "Raise Pets 養寵物新手",
+        "docs": "https://moeyy.cn/rsshub/routes/new-media",
+        "source": [
+          "/category/raise-cats",
+          "/"
+        ],
+        "target": "/thepetcity/5"
+      },
+      {
+        "title": "PetCity 毛孩日常 | 飼養竉物、竉物用品、萌寵趣聞",
+        "docs": "https://moeyy.cn/rsshub/routes/new-media",
+        "source": [
+          "/"
+        ],
+        "target": "/thepetcity/:term?"
       }
     ]
   },
@@ -14980,6 +15051,19 @@
           "/"
         ],
         "target": "/trow/portal"
+      }
+    ]
+  },
+  "ttv.com.tw": {
+    "_name": "台視新聞網",
+    "news": [
+      {
+        "title": "分类",
+        "docs": "https://moeyy.cn/rsshub/routes/traditional-media",
+        "source": [
+          "/:category"
+        ],
+        "target": "/ttv/:category?"
       }
     ]
   },
@@ -15356,6 +15440,17 @@
   },
   "upc.edu.cn": {
     "_name": "中国石油大学（华东）",
+    "jwc": [
+      {
+        "title": "教务处通知公告",
+        "docs": "https://moeyy.cn/rsshub/routes/university",
+        "source": [
+          "/",
+          "/:type/list.htm"
+        ],
+        "target": "/upc/jwc/:type?"
+      }
+    ],
     "zs.gs": [
       {
         "title": "研究生院通知公告",
@@ -15873,7 +15968,7 @@
     "_name": "新假期周刊",
     ".": [
       {
-        "title": "Unknown",
+        "title": "最新文章",
         "docs": "https://moeyy.cn/rsshub/routes/other",
         "source": [
           "/"
@@ -15933,6 +16028,19 @@
           "/profile/:uid"
         ],
         "target": "/weibo/user/:uid"
+      }
+    ]
+  },
+  "wellcee.com": {
+    "_name": "Wellcee 唯心所寓",
+    "www": [
+      {
+        "title": "支持的城市",
+        "docs": "https://moeyy.cn/rsshub/routes/other",
+        "source": [
+          "/"
+        ],
+        "target": "/wellcee/support-city"
       }
     ]
   },
@@ -16487,6 +16595,19 @@
           "/post/"
         ],
         "target": "/yande/post/popular_recent/:period?"
+      }
+    ]
+  },
+  "yenpress.com": {
+    "_name": "Yen Press",
+    ".": [
+      {
+        "title": "Series",
+        "docs": "https://moeyy.cn/rsshub/routes/reading",
+        "source": [
+          "/series/:name"
+        ],
+        "target": "/yenpress/series/:name"
       }
     ]
   },
