@@ -23,7 +23,7 @@ export const twitterGot = async (url, params) => {
         url: `${url}?${queryString.stringify(params)}`,
         method: 'GET',
         headers: {
-            authority: 'twitter.com',
+            authority: 'x.com',
             accept: '*/*',
             'accept-language': 'en-US,en;q=0.9',
             authorization: bearerToken,
@@ -32,7 +32,7 @@ export const twitterGot = async (url, params) => {
             cookie: config.twitter.cookie,
             dnt: '1',
             pragma: 'no-cache',
-            referer: 'https://twitter.com/narendramodi',
+            referer: 'https://x.com/narendramodi',
             'x-csrf-token': jsonCookie.ct0,
             'x-twitter-active-user': 'yes',
             'x-twitter-auth-type': 'OAuth2Session',
@@ -63,7 +63,11 @@ export const paginationTweets = async (endpoint: string, userId: number | undefi
         }
         instructions = instructions.instructions;
     } else {
-        instructions = data.user.result.timeline_v2.timeline.instructions;
+        if (data?.user?.result?.timeline_v2?.timeline?.instructions) {
+            instructions = data.user.result.timeline_v2.timeline.instructions;
+        } else {
+            throw new Error('Because Twitter Premium has features that hide your likes, this RSS link is not available for Twitter Premium accounts.');
+        }
     }
 
     const entries1 = instructions.find((i) => i.type === 'TimelineAddToModule')?.moduleItems; // Media
