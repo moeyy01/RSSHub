@@ -1368,33 +1368,6 @@
       }
     ]
   },
-  "arknights.jp": {
-    "_name": "明日方舟",
-    "ak": [
-      {
-        "title": "アークナイツ (日服新闻)",
-        "docs": "https://moeyy.cn/rsshub/routes/game",
-        "source": [
-          "/news",
-          "/"
-        ],
-        "target": "/arknights/japan"
-      }
-    ]
-  },
-  "hypergryph.com": {
-    "_name": "明日方舟",
-    "ak-conf": [
-      {
-        "title": "游戏公告与新闻",
-        "docs": "https://moeyy.cn/rsshub/routes/game",
-        "source": [
-          "/*"
-        ],
-        "target": "/arknights/news"
-      }
-    ]
-  },
   "artstation.com": {
     "_name": "ArtStation",
     "www": [
@@ -5305,26 +5278,26 @@
         "target": "/finology/bullets"
       },
       {
+        "title": "Category",
+        "docs": "https://moeyy.cn/rsshub/routes/finance",
+        "source": [
+          "/:category"
+        ],
+        "target": "/finology/:category"
+      },
+      {
         "title": "Most Viewed",
         "docs": "https://moeyy.cn/rsshub/routes/finance",
         "source": [
-          "/:category"
+          "/most-viewed"
         ],
-        "target": "/finology/:category"
+        "target": "/finology/most-viewed/monthly"
       },
       {
-        "title": "Category",
+        "title": "Trending Topic",
         "docs": "https://moeyy.cn/rsshub/routes/finance",
         "source": [
-          "/:category"
-        ],
-        "target": "/finology/:category"
-      },
-      {
-        "title": "Category",
-        "docs": "https://moeyy.cn/rsshub/routes/finance",
-        "source": [
-          "/:category"
+          "/tag/:topic"
         ],
         "target": "/finology/tag/:topic"
       }
@@ -8040,6 +8013,33 @@
           "/"
         ],
         "target": "/huxiu/search/:keyword"
+      }
+    ]
+  },
+  "arknights.jp": {
+    "_name": "鹰角网络",
+    "ak": [
+      {
+        "title": "アークナイツ (日服新闻)",
+        "docs": "https://moeyy.cn/rsshub/routes/game",
+        "source": [
+          "/news",
+          "/"
+        ],
+        "target": "/hypergryph/arknights/japan"
+      }
+    ]
+  },
+  "hypergryph.com": {
+    "_name": "鹰角网络",
+    "ak-conf": [
+      {
+        "title": "明日方舟 - 游戏公告与新闻",
+        "docs": "https://moeyy.cn/rsshub/routes/game",
+        "source": [
+          "/news"
+        ],
+        "target": "/hypergryph/arknights/news/:group?"
       }
     ]
   },
@@ -14119,14 +14119,24 @@
   },
   "shisu.edu.cn": {
     "_name": "上海外国语大学",
+    "en": [
+      {
+        "title": "SISU TODAY | FEATURED STORIES",
+        "docs": "https://moeyy.cn/rsshub/routes/university",
+        "source": [
+          "/resources/:section/"
+        ],
+        "target": "/shisu/en/:section"
+      }
+    ],
     "news": [
       {
         "title": "上外新闻",
         "docs": "https://moeyy.cn/rsshub/routes/university",
         "source": [
-          "/:category/index.html"
+          "/:section/index.html"
         ],
-        "target": "/shisu/news/:category"
+        "target": "/shisu/news/:section"
       }
     ]
   },
@@ -17157,6 +17167,19 @@
           "/wj/*path"
         ],
         "target": "/worldjournal/:path"
+      }
+    ]
+  },
+  "worldofwarships.com": {
+    "_name": "World of Warships",
+    "blog": [
+      {
+        "title": "Development Blog",
+        "docs": "https://moeyy.cn/rsshub/routes/game",
+        "source": [
+          "/"
+        ],
+        "target": "/worldofwarships/devblog"
       }
     ]
   },
